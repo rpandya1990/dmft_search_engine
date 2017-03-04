@@ -1,1 +1,13 @@
 /* custom styles */
+h1 {
+    margin-top: 0;
+}
+.red{
+   color: red;
+}
+.thick{
+   font-size:20px;
+}
+.green{
+   color:green;
+}
