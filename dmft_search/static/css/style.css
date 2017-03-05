@@ -21,9 +21,17 @@ th {
 	border-color: #a9c6c9;
 	color: white;
 }
+
 td {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
 	border-color: #a9c6c9;
 }
+
+.btn-primary {
+	margin-left: px;
+	margin-right: 5px;
+}
+
+.resizedTextbox {width: 50%; height: 30px}

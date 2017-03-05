@@ -12,41 +12,41 @@ class SearchForm extends React.Component {
     this.state = {items: [], searchString: ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.resetSearch = this.resetSearch.bind(this);
   }
 
   handleChange(event) {
     this.setState({searchString: event.target.value});
-    console.log(this.state.items);
   }
 
   handleSubmit(event) {
     // alert('A name was submitted: ' + this.state.searchString);
-    // event.preventDefault();
+    event.preventDefault();
     // this.getMoviesFromApiAsync();
-    console.log(this.state.searchString);
     this.getData();
   }
 
+  resetSearch(event) {
+    this.setState({items: [], searchString: ''});
+    event.preventDefault();
+  }
+
   getData() {
-    fetch("http://localhost:5000/search")
-      .then(response => response.json())
-      .then(json => {
-        console.log("Inside request: ");
-        console.log(json.Data);
-        this.setState({
-          items: json.Data
+    if (this.state.searchString.length > 0) {
+      var url = "http://localhost:5000/search/" + this.state.searchString;
+      fetch(url)
+        .then(response => response.json())
+        .then(json => {
+          this.setState({
+            items: json.Data
+          });
         });
-        console.log("after copy to state");
-        console.log(this.state.items);
-      });
+    }
   }
 
   generateRows() {
         var cols = this.props.cols,  // [{key, label}]
             data = this.state.items;
-        console.log("Inside functions");
-        console.log(data);
-            // console.log(data);
 
         return data.map(function(item) {
             // handle the column data within each row
@@ -73,13 +73,16 @@ class SearchForm extends React.Component {
         rowComponents = this.generateRows();
     return (
       React.createElement("div", null, 
-        React.createElement("form", {onSubmit: this.handleSubmit.bind(this)}, 
-          React.createElement("input", {type: "text", value: this.state.searchString, onChange: this.handleChange.bind(this)}), 
-          React.createElement("input", {type: "submit", value: "Search"})
+        React.createElement("form", {onSubmit: this.handleSubmit}, 
+          React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter Material to search"}), 
+          React.createElement("br", null), 
+          React.createElement("br", null), 
+          React.createElement("input", {className: "btn btn-primary", type: "submit", value: "Search"}), 
+          React.createElement("button", {type: "button", className: "btn btn-primary", onClick: this.resetSearch}, "Reset")
         ), 
         React.createElement("br", null), 
-        React.createElement("div", {class: "table-responsive"}, 
-            React.createElement("table", {class: "table"}, 
+        React.createElement("div", {className: "table-responsive"}, 
+            React.createElement("table", {className: "table"}, 
                 React.createElement("thead", null, " ", headerComponents, " "), 
                 React.createElement("tbody", null, " ", rowComponents, " ")
             )
@@ -93,6 +96,6 @@ module.exports = SearchForm;
 
 const main = document.getElementById('main');
 
-ReactDOM.render(React.createElement(SearchForm, {cols: cols, dataURL: "https://facebook.github.io/react-native/movies.json"}), main);
+ReactDOM.render(React.createElement(SearchForm, {cols: cols}), main);
 
 },{}]},{},[1]);
