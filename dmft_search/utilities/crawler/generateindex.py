@@ -1,17 +1,17 @@
 import sys
-import getabspaths
+import getfilesystem
 sys.path.append("..")
 from keystore import keystorefile
 
 
 def generateindex():
     store = keystorefile.create()
-    pathlist = getabspaths.getall()
+    pathlist = getfilesystem.getall()
     index = {}
     for item in pathlist:
         for pattern in store:
             if pattern in item:
-                if index.has_key(pattern):
+                if index in pattern:
                     index[pattern].append(item)
                 else:
                     temp = []
