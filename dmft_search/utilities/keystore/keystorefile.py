@@ -2,6 +2,14 @@ from periodictable import *
 
 
 def create():
+	"""Generate all keywords.
+
+	Generate keywords which are combinations of 2 elements(symbols)
+	and their mapping to names
+	Returns:
+	    Keyword(combinations of 2 elements) and
+	    inverted keyword(mapping of keyword to element names)
+	"""
 	keyword = {}
 	for element in elements:
 		for other_element in elements:
@@ -23,5 +31,3 @@ def create():
 				inverted_keyword[item].append(key)
 
 	return keyword, inverted_keyword
-
-create()

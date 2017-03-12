@@ -1,7 +1,8 @@
 var cols = [
-    { key: 'id', label: 'Id' },
-    { key: 'owner', label: 'Owner' },    
     { key: 'path', label: 'Path' },
+    { key: 'last_Modified', label: 'Last Modified' },    
+    { key: 'files', label: 'Files' },
+    { key: 'folders', label: 'Folders' },
     { key: 'description', label: 'Description' }
 ];
 
@@ -54,7 +55,7 @@ class SearchForm extends React.Component {
                 // colData.key might be "firstName"
                 return <td key={colData.key}> {item[colData.key]} </td>;
             });
-            return <tr key={item.id}> {cells} </tr>;
+            return <tr key={item.path}> {cells} </tr>;
         });
     }
 

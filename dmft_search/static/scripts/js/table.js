@@ -67,9 +67,10 @@ ReactDOM.render(React.createElement(Table, {cols: cols, data: data}),  document.
 
 },{"./searchForm.js":2}],2:[function(require,module,exports){
 var cols = [
-    { key: 'id', label: 'Id' },
-    { key: 'owner', label: 'Owner' },    
     { key: 'path', label: 'Path' },
+    { key: 'last_Modified', label: 'Last Modified' },    
+    { key: 'files', label: 'Files' },
+    { key: 'folders', label: 'Folders' },
     { key: 'description', label: 'Description' }
 ];
 
@@ -122,7 +123,7 @@ class SearchForm extends React.Component {
                 // colData.key might be "firstName"
                 return React.createElement("td", {key: colData.key}, " ", item[colData.key], " ");
             });
-            return React.createElement("tr", {key: item.id}, " ", cells, " ");
+            return React.createElement("tr", {key: item.path}, " ", cells, " ");
         });
     }
 
