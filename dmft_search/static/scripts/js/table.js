@@ -68,7 +68,7 @@ ReactDOM.render(React.createElement(Table, {cols: cols, data: data}),  document.
 },{"./searchForm.js":2}],2:[function(require,module,exports){
 var cols = [
     { key: 'path', label: 'Path' },
-    { key: 'last_Modified', label: 'Last Modified' },    
+    { key: 'last_modified', label: 'Last Modified' },    
     { key: 'files', label: 'Files' },
     { key: 'folders', label: 'Folders' },
     { key: 'description', label: 'Description' }

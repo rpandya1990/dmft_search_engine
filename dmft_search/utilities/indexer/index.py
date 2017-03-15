@@ -15,7 +15,7 @@ def generate(dump):
     filesystem = fileSystemDumps.load(dump)
     index = {}
     print "Building indexes :"
-    for item in tqdm(filesystem.keys()[1:2000]):
+    for item in tqdm(filesystem.keys()[1:1000]):
         for keyword in keywords.keys():
             if keyword in item.split("/")[-1]:
                 if keyword in index:
@@ -24,4 +24,4 @@ def generate(dump):
                     temp = []
                     temp.append(item)
                     index[keyword] = temp
-    return index
+    return index, filesystem

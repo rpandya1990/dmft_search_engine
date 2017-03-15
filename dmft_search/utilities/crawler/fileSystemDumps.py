@@ -12,9 +12,9 @@ def create(location):
     for root, dirs, files in os.walk(location, topdown=True):
         folders = {}
         temp_dict = {}
-        temp_dict["Last modified"] = time.ctime(os.path.getmtime(root))
-        temp_dict["Files"] = files
-        temp_dict["Folders"] = dirs
+        temp_dict["last_modified"] = time.ctime(os.path.getmtime(root))
+        temp_dict["files"] = files
+        temp_dict["folders"] = dirs
         folders[root] = temp_dict
         for name in files:
             os.path.join(root, name)
@@ -30,8 +30,18 @@ def load(name):
     Args:
         location: Path of the dump already created
     """
-    print os.getcwd()
     name = "dmft_search/utilities/crawler/dumps/" + name
+    with open(name, 'rb') as handle:
+        b = pickle.load(handle)
+    return b
+
+
+def test_load(name):
+    """Load a filesystem dump from the given loation.
+
+    Args:
+        location: Path of the dump already created
+    """
     with open(name, 'rb') as handle:
         b = pickle.load(handle)
     return b
