@@ -1,8 +1,9 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var cols = [
-    { key: 'id', label: 'Id' },
-    { key: 'owner', label: 'Owner' },    
     { key: 'path', label: 'Path' },
+    { key: 'last_modified', label: 'Last Modified' },    
+    { key: 'files', label: 'Files' },
+    { key: 'folders', label: 'Folders' },
     { key: 'description', label: 'Description' }
 ];
 
@@ -20,9 +21,7 @@ class SearchForm extends React.Component {
   }
 
   handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.searchString);
     event.preventDefault();
-    // this.getMoviesFromApiAsync();
     this.getData();
   }
 
@@ -55,7 +54,7 @@ class SearchForm extends React.Component {
                 // colData.key might be "firstName"
                 return React.createElement("td", {key: colData.key}, " ", item[colData.key], " ");
             });
-            return React.createElement("tr", {key: item.id}, " ", cells, " ");
+            return React.createElement("tr", {key: item.path}, " ", cells, " ");
         });
     }
 
@@ -74,7 +73,7 @@ class SearchForm extends React.Component {
     return (
       React.createElement("div", null, 
         React.createElement("form", {onSubmit: this.handleSubmit}, 
-          React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter Material to search"}), 
+          React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter compound formula"}), 
           React.createElement("br", null), 
           React.createElement("br", null), 
           React.createElement("input", {className: "btn btn-primary", type: "submit", value: "Search"}), 
@@ -82,7 +81,7 @@ class SearchForm extends React.Component {
         ), 
         React.createElement("br", null), 
         React.createElement("div", {className: "table-responsive"}, 
-            React.createElement("table", {className: "table"}, 
+            React.createElement("table", {id: "myTable", className: "table"}, 
                 React.createElement("thead", null, " ", headerComponents, " "), 
                 React.createElement("tbody", null, " ", rowComponents, " ")
             )

@@ -22,11 +22,11 @@ class Search(Resource):
 		if keyword in inv_index:
 			for item in inv_index[keyword]:
 				data = {}
-				data["path"] = item
-				data['last_modified'] = filesystem[item]['last_modified']
+				data["path"] = item[0]
+				data['last_modified'] = filesystem[item[0]]['last_modified']
 				data['description'] = "coming soon"
-				files = ", ".join(filesystem[item]['files'])
-				folders = ", ".join(filesystem[item]['folders'])
+				files = ", ".join(filesystem[item[0]]['files'])
+				folders = ", ".join(filesystem[item[0]]['folders'])
 				data['files'] = files
 				data['folders'] = folders
 				result.append(data)

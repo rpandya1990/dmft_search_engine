@@ -1,11 +1,3 @@
-var cols = [
-    { key: 'path', label: 'Path' },
-    { key: 'last_modified', label: 'Last Modified' },    
-    { key: 'files', label: 'Files' },
-    { key: 'folders', label: 'Folders' },
-    { key: 'description', label: 'Description' }
-];
-
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);
@@ -20,9 +12,7 @@ class SearchForm extends React.Component {
   }
 
   handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.searchString);
     event.preventDefault();
-    // this.getMoviesFromApiAsync();
     this.getData();
   }
 
@@ -45,47 +35,56 @@ class SearchForm extends React.Component {
   }
 
   generateRows() {
-        var cols = this.props.cols,  // [{key, label}]
-            data = this.state.items;
-
-        return data.map(function(item) {
-            // handle the column data within each row
-            var cells = cols.map(function(colData) {
-
-                // colData.key might be "firstName"
-                return <td key={colData.key}> {item[colData.key]} </td>;
-            });
-            return <tr key={item.path}> {cells} </tr>;
-        });
-    }
-
-  generateHeaders() {
-    var cols = this.props.cols;  // [{key, label}]
-
-    // generate our header (th) cell components
-    return cols.map(function(colData) {
-        return <th key={colData.key}> {colData.label} </th>;
+    var data = ["https://www.oneblowdrybar.com/wp-content/uploads/2013/05/placeholder2.png",
+        "http://ccmmp.ph.qmul.ac.uk/sites/default/files/styles/newsimage/public/newsimages/Perovskite.png?itok=eYV75gwZ",
+        "http://news.rice.edu/files/2013/11/1111_ARO-BB.jpg"];
+    
+    var cells = data.map(function(item) {
+      return <td key={item}>
+              <img src={item} className="img-responsive" width="200px" height="200px"/>
+             </td>;
     });
+    return <tr> {cells} </tr>;
+  }
+
+  generateResult() {
+    var data = this.state.items;
+    var rowComponents = this.generateRows();
+    return data.map(function(item) {
+      return  <div key={item.path}>
+                <h3>{item.path}</h3>
+                Hello, This is sample description
+                <br />
+                <br />
+                <table>
+                  {rowComponents}
+                </table>
+                <br />
+                <br />
+                <br />
+                <br />
+              </div>;
+    })
   }
 
   render() {
-    var headerComponents = this.generateHeaders(),
-        rowComponents = this.generateRows();
+    var resultComponents = this.generateResult();
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-          <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter Material to search"/>
+        <div>
+          <form onSubmit={this.handleSubmit}>
+            <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter compound formula"/>
+            <br />
+            <br />
+            <input className="btn btn-primary" type="submit" value="Search" />
+            <button type="button" className="btn btn-primary" onClick={this.resetSearch}>Reset</button>
+          </form>
           <br />
           <br />
-          <input className="btn btn-primary" type="submit" value="Search" />
-          <button type="button" className="btn btn-primary" onClick={this.resetSearch}>Reset</button>
-        </form>
-        <br />
-        <div className="table-responsive">
-            <table className="table">
-                <thead> {headerComponents} </thead>
-                <tbody> {rowComponents} </tbody>
-            </table>
+          <br />
+        </div>
+        <div>
+          {resultComponents}
         </div>
       </div>
     );
@@ -96,4 +95,4 @@ module.exports = SearchForm;
 
 const main = document.getElementById('main');
 
-ReactDOM.render(<SearchForm cols={cols}/>, main);
+ReactDOM.render(<SearchForm/>, main);

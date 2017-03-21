@@ -1,7 +1,8 @@
 var cols = [
-    { key: 'id', label: 'Id' },
-    { key: 'owner', label: 'Owner' },    
     { key: 'path', label: 'Path' },
+    { key: 'last_modified', label: 'Last Modified' },    
+    { key: 'files', label: 'Files' },
+    { key: 'folders', label: 'Folders' },
     { key: 'description', label: 'Description' }
 ];
 
@@ -19,9 +20,7 @@ class SearchForm extends React.Component {
   }
 
   handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.searchString);
     event.preventDefault();
-    // this.getMoviesFromApiAsync();
     this.getData();
   }
 
@@ -54,7 +53,7 @@ class SearchForm extends React.Component {
                 // colData.key might be "firstName"
                 return <td key={colData.key}> {item[colData.key]} </td>;
             });
-            return <tr key={item.id}> {cells} </tr>;
+            return <tr key={item.path}> {cells} </tr>;
         });
     }
 
@@ -73,7 +72,7 @@ class SearchForm extends React.Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter Material to search"/>
+          <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter compound formula"/>
           <br />
           <br />
           <input className="btn btn-primary" type="submit" value="Search" />
@@ -81,7 +80,7 @@ class SearchForm extends React.Component {
         </form>
         <br />
         <div className="table-responsive">
-            <table className="table">
+            <table id="myTable" className="table">
                 <thead> {headerComponents} </thead>
                 <tbody> {rowComponents} </tbody>
             </table>

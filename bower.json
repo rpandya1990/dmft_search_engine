@@ -16,10 +16,6 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "react": "^15.1.0",
-    "datatables.net": "^2.1.1",
-    "datatables.net-dt": "^3.2.2",
-    "datatables.net-scroller": "^1.4.2",
-    "datatables.net-scroller-dt": "^1.4.2"
+    "react": "^15.1.0"
   }
 }

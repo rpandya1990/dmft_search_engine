@@ -1,0 +1,46 @@
+/* custom styles */
+h1 {
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 0;
+    color: #1a0dab;
+}
+
+div {
+	margin-left:30px;
+}
+
+table {
+	font-family: verdana,arial,sans-serif;
+	font-size:15px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+
+th {
+	background:grey;
+	text-align: center;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	color: white;
+}
+
+td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+.btn-primary {
+	margin-left: px;
+	margin-right: 5px;
+}
+
+.resizedTextbox {width: 50%; height: 30px}
