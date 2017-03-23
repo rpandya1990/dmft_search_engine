@@ -56,6 +56,8 @@ def generate(dump):
                 frequency += len(pattern_in_file)
 
             if frequency > 0:
+                if keyword not in index:
+                    index[keyword] = {}
                 index[keyword][item] = inner_temp
 
     # Printing index to file for analysis

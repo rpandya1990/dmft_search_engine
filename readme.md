@@ -1,5 +1,5 @@
 # DMFT Search Engine
-![Logo](https://raw.githubusercontent.com/rpandya1990/dmft_search_engine/master/Images/Logo.JPG)]
+![Logo](https://raw.githubusercontent.com/rpandya1990/dmft_search_engine/master/Images/Logo.JPG)
 
 Search Engine to query files/folders based on chemical compounds.
 
