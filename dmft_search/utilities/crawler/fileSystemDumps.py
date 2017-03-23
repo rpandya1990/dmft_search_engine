@@ -4,7 +4,22 @@ import pickle
 
 
 def create(location):
-    """Create a filesystem dump by crawling.
+    """Create a filesystem dump(dictionary) by crawling.
+
+    Every entry in the dictionary is an entry as below
+    Every folder is tokenized and stored as
+    'Path to folder': {
+        'files': [Names of the files],
+        'folders': [Names of the folders],
+        'last_modified': 'Weekday Month Day hh:mm:ss Year'
+    }
+
+    Example:
+    '/home/Public/Soft: {
+        'files': ['a.html', 'b.txt'],
+        'folders': ['var', 'www'],
+        'last_modified': 'Fri May 22 17:29:42 2015'
+    },
 
     Args:
         location: path of the filesystem

@@ -41,7 +41,7 @@ class SearchForm extends React.Component {
     
     var cells = data.map(function(item) {
       return <td key={item}>
-              <img src={item} className="img-responsive" width="200px" height="200px"/>
+              <img src={item} className="img-thumbnail" width="200px" height="200px"/>
              </td>;
     });
     return <tr> {cells} </tr>;

@@ -42,7 +42,7 @@ class SearchForm extends React.Component {
     
     var cells = data.map(function(item) {
       return React.createElement("td", {key: item}, 
-              React.createElement("img", {src: item, className: "img-responsive", width: "200px", height: "200px"})
+              React.createElement("img", {src: item, className: "img-thumbnail", width: "200px", height: "200px"})
              );
     });
     return React.createElement("tr", null, " ", cells, " ");
