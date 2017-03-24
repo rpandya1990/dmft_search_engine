@@ -1,114 +1,636 @@
-('NNi', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('BI', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('BU', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 9)])
-('WS', '-->', [('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 5)])
-('PoIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('BS', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('PAr', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 8)])
-('BiLi', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('NAm', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 8)])
-('OIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('RaB', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('PrO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6), ('/home/xiaoyu/tmp/testPlot/imp.0', 23)])
-('ArC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6), ('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 7)])
-('FFe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 9)])
-('InNi', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('ON', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 19)])
-('OI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('OC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('OB', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 23)])
-('BaB', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('BaC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('HAr', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('FIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('HP', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 16), ('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5', 8)])
-('HI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5), ('/home/xiaoyu/tmp/testPlot/imp.0', 5), ('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 7)])
-('CEs', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('ReP', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('PY', '-->', [('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 5), ('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 8)])
-('OCe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('SI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5), ('/home/xiaoyu/tmp/testPlot/imp.0', 23)])
-('ReC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('FO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 7)])
-('PO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 7)])
-('INp', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 22)])
-('Un', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('TcH', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('INe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 8)])
-('IV', '-->', [('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 7)])
-('OU', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 47)])
-('US', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 32)])
-('UO', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 4)])
-('UN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('PdF', '-->', [('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 5), ('/home/xiaoyu/tmp/testPlot/imp.0', 4)])
-('UF', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 9)])
-('YC', '-->', [('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 4)])
-('UB', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('Nn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('PoI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('nAm', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 8)])
-('CeS', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('FI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 22), ('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 7)])
-('AmS', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 8)])
-('nO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('ArAm', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 8)])
-('NI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('nIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('NO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('NC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('ILi', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('NP', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 22)])
-('NS', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('NU', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 11)])
-('CK', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('CH', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 16), ('/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive', 7)])
-('CO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 8)])
-('PaRa', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 8)])
-('BaBi', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('SeAr', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('InP', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 22)])
-('InN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('PLa', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('LiNe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 7)])
-('CU', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('STa', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 32)])
-('KI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('SU', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4), ('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 5)])
-('OBa', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 21)])
-('Inn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('KW', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('ThIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('WAr', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 11)])
-('nI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('NiN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('nN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('On', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 19)])
-('Lin', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 7)])
-('nC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('LaC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('nP', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 22)])
-('FEr', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 9)])
-('nS', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('nU', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 11)])
-('HIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('EsS', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('LiN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 7)])
-('TiO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('BAc', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('LaCe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('IS', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 5)])
-('VO', '-->', [('/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test', 6)])
-('IO', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 13)])
-('IN', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 5), ('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 41), ('/home/xiaoyu/tmp/testPlot/imp.0', 23)])
-('Nin', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('ReGe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('Con', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
-('NIn', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('AtC', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('nNi', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('AcK', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 5)])
-('AtU', '-->', [('/home/xiaoyu/tmp/testPlot/imp.0', 32)])
-('ThI', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 4)])
-('In', '-->', [('/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition', 5), ('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 41), ('/home/xiaoyu/tmp/testPlot/imp.0', 23)])
-('IRe', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 9)])
-('CoN', '-->', [('/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode', 6)])
+('BiN', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [13], 'enum_trailing_binary_params.hpp': [14], 'enum_binary_params.hpp': [5]}})
+
+('NoN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-nondirectory': [10]}})
+
+('NoH', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [0], 'nohup.out': [0]}})
+
+('LiAs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defalias': [4]}})
+
+('NNi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [9], 'region-beginning': [11], 'beginning-of-line': [4], 'match-beginning': [10]}})
+
+('WHe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'when': [0]}})
+
+('WO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'word_regexp': [0], 'word-or-region': [0], 'x-word-or-region': [2]}})
+
+('BO', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [2]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'fboundp': [1], 'bounds-of-thing-at-point': [0]}})
+
+('SAg', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'message': [3]}})
+
+('BI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [13], 'enum_trailing_binary_params.hpp': [14], 'enum_binary_params.hpp': [5]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [5], 'Probability.dat.10.1': [5], 'Probability.dat.5.1': [5], 'Probability.dat.14.1': [5], 'Probability.dat.9.1': [5], 'Probability.dat.7.1': [5], 'Probability.dat.8.1': [5], 'Probability.dat.19.1': [5], 'Probability.dat.6.1': [5], 'Probability.dat.3.1': [5], 'Probability.dat': [5], 'Probability.dat.2.1': [5], 'Probability.dat.17.1': [5], 'Probability.dat.15.1': [5], 'Probability.dat.16.1': [5], 'Probability.dat.20.1': [5], 'Probability.dat.18.1': [5], 'Probability.dat.11.1': [5], 'Probability.dat.13.1': [5], 'Probability.dat.4.1': [5], 'Probability.dat.1.1': [5]}})
+
+('WI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params_with_a_default.hpp': [12], 'enum_params_with_defaults.hpp': [12]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'with-current-buffer': [0], 'widget-get': [0]}})
+
+('WH', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'while': [0], 'when': [0]}})
+
+('BAs', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'base.hpp': [0]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [12], 'hdf_archive_basic_layer_h5py.pyc': [12]}})
+
+('BU', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'set-buffer': [4], 'buffer-substring-no-properties': [0], 'with-current-buffer': [13], 'buffer-substring': [0], 'kill-buffer': [5], 'save-buffer': [5], 'current-buffer': [8], 'buffer-file-name': [0], 'buffer-modified-p': [0]}})
+
+('AlAr', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [2]}})
+
+('UIr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'require': [3]}})
+
+('WS', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'wsq_Fit.dat': [0], 'wsq_Fit_Sum_compare_V2O3.pdf': [0], 'Plot_wsq_V2O3.py': [5], 'wsq_Fit_V2O3.pdf': [0], 'wsq_Sum.dat': [0]}})
+
+('UAl', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'equal': [2]}})
+
+('PoIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'point-min': [0], 'thing-at-point': [9], 'bounds-of-thing-at-point': [19], 'point-max': [0], 'point': [0]}})
+
+('BS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defsubst': [5], 'buffer-substring-no-properties': [9], 'substring': [2], 'buffer-substring': [9], 'grabstring': [3], 'x-grabstring': [5]}})
+
+('OOs', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [3]}})
+
+('InF', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [14]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [0]}})
+
+('nDs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'bounds-of-thing-at-point': [3]}})
+
+('FU', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [0], 'function': [0], 'defun': [2]}})
+
+('Bin', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [13], 'enum_trailing_binary_params.hpp': [14], 'enum_binary_params.hpp': [5]}})
+
+('PAr', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [5], 'enum_trailing_params.hpp': [14], 'enum_shifted_binary_params.hpp': [20], 'enum_binary_params.hpp': [12], 'enum_params_with_defaults.hpp': [5], 'enum_params_with_a_default.hpp': [5], 'enum_trailing_binary_params.hpp': [21], 'enum_shifted_params.hpp': [13]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'PARAMS': [0]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Fit_Sum_compare_V2O3.pdf': [14], 'wsq_Fit_Sum_compare_V2O3.pdf': [15], 'w_Fit_Sum_compare_V2O3.pdf': [13]}})
+
+('NoNd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-nondirectory': [10]}})
+
+('FV', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defvar': [2]}})
+
+('AcTi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'interactive': [5], 'region-active-p': [7]}})
+
+('ORb', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Eorb.dat': [1]}})
+
+('TeRa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'interactive': [2]}})
+
+('NAm', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'rename-file': [2], 'file-name-directory': [5], 'expand-file-name': [12], 'file-name-nondirectory': [5], 'file-name-extension': [5], 'file-relative-name': [14], 'buffer-file-name': [12], 'file-name-sans-extension': [5]}})
+
+('NAr', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [15], 'enum_trailing_binary_params.hpp': [16], 'enum_binary_params.hpp': [7]}})
+
+('nTh', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'nth': [0]}})
+
+('ScHe', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [12], 'hdf_archive_schemes.py': [12]}})
+
+('TeN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [15], 'file-name-extension': [12], 'file-name-sans-extension': [17]}})
+
+('PLi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'split-string': [1]}})
+
+('CaLa', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [1]}})
+
+('nTe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [14], 'interactive': [1]}})
+
+('VAl', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonval.vim': [4]}})
+
+('OBa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'global-set-key': [2]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [2], 'Probability.dat.10.1': [2], 'Probability.dat.5.1': [2], 'Probability.dat.14.1': [2], 'Probability.dat.9.1': [2], 'Probability.dat.7.1': [2], 'Probability.dat.8.1': [2], 'Probability.dat.19.1': [2], 'Probability.dat.6.1': [2], 'Probability.dat.3.1': [2], 'Probability.dat': [2], 'Probability.dat.2.1': [2], 'Probability.dat.17.1': [2], 'Probability.dat.15.1': [2], 'Probability.dat.16.1': [2], 'Probability.dat.20.1': [2], 'Probability.dat.18.1': [2], 'Probability.dat.11.1': [2], 'Probability.dat.13.1': [2], 'Probability.dat.4.1': [2], 'Probability.dat.1.1': [2]}})
+
+('On', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repetition': [8]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'json': [2], 'jsonval.vim': [2], 'jsonlint.vim': [2]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [4], 'rational_test.cpp': [4]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [1], 'function': [6], 'condition-case': [1, 7], 'cons': [1], 'word-or-region': [12], 'region-active-p': [4], 'concat': [1], 'insert-file-contents': [13], 'save-excursion': [12], 'file-name-nondirectory': [11], 'region-beginning': [4], 'file-name-extension': [17], 'region-end': [4], 'line-beginning-position': [21], 'cond': [1], 'x-word-or-region': [14], 'delete-region': [11], 'file-name-sans-extension': [22], 'line-end-position': [15]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [12, 22]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [23]}})
+
+('nH', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'UO2_Nhis.pdf': [3]}})
+
+('ArS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'skip-chars-backward': [7], 'skip-chars-forward': [7]}})
+
+('RaB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'grabstring': [1], 'x-grabstring': [3], 'x-grabthing': [3], 'grabthing': [1]}})
+
+('RaC', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_extractor.hpp': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'interactive': [4]}})
+
+('KB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'kbd': [0]}})
+
+('RaN', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Trans.dat': [1]}})
+
+('ArY', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [16], 'enum_trailing_binary_params.hpp': [17], 'enum_binary_params.hpp': [8]}})
+
+('PrO', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'progress.marks': [0]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [20], 'progn': [0]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.19.1': [0], 'Probability.dat.17.1': [0], 'Probability.dat.16.1': [0], 'Probability.dat.10.1': [0], 'plotProb.py~': [4], 'Probability.dat.7.1': [0], 'Probability.dat.6.1': [0], 'Probability.dat.11.1': [0], 'Probability.dat.18.1': [0], 'Probability.dat.1.1': [0], 'Probability.dat.15.1': [0], 'Probability.dat.14.1': [0], 'Probability.dat.9.1': [0], 'Probability.dat.8.1': [0], 'Probability.dat': [0], 'plotProb.py': [4], 'Probability.dat.20.1': [0], 'Probability.dat.5.1': [0], 'Probability.dat.13.1': [0], 'Probability.dat.4.1': [0], 'Probability.dat.12.1': [0], 'Probability.dat.3.1': [0], 'Probability.dat.2.1': [0]}})
+
+('LiS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'emacs-lisp-mode': [6], 'list': [0], 'dolist': [2]}})
+
+('PrI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'print': [0], 'princ': [0]}})
+
+('ErSe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-traverse_dir': [6], 'traverse_dir': [4]}})
+
+('RaI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_trailing.hpp': [6], 'enum_trailing_binary_params.hpp': [6], 'enum_trailing_params.hpp': [6]}})
+
+('RaV', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-traverse_dir': [3], 'traverse_dir': [1]}})
+
+('HoO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'add-hook': [4]}})
+
+('TaU', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Gtau.dat': [1]}})
+
+('ArC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [2], 'search-forward-regexp': [2], 're-search-backward': [5], 'search-backward': [2], 'search-forward': [2], 're-search-forward': [5]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [4], 'hdf_archive.py': [4], 'hdf_archive_schemes.py': [4], 'hdf_archive.pyc': [4], 'hdf_archive_basic_layer_h5py.pyc': [4], 'hdf_archive_basic_layer_h5py.py': [4], 'archive': [0]}})
+
+('FFe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'set-buffer': [6], 'buffer-substring-no-properties': [2], 'with-current-buffer': [15], 'buffer-substring': [2], 'kill-buffer': [7], 'save-buffer': [7], 'current-buffer': [10], 'buffer-file-name': [2], 'buffer-modified-p': [2]}})
+
+('KIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'looking-at': [3]}})
+
+('nCa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [2], 'concat': [2]}})
+
+('RaTi', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [0], 'rational_test.cpp': [0]}})
+
+('ArI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'make-local-variable': [12]}})
+
+('YEs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'yes-or-no-p': [0]}})
+
+('ArK', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'set-mark': [5]}})
+
+('YEr', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [20], 'hdf_archive_basic_layer_h5py.pyc': [20]}})
+
+('InNi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [8], 'region-beginning': [10], 'beginning-of-line': [3], 'match-beginning': [9]}})
+
+('BaS', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'base.hpp': [0]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [12], 'hdf_archive_basic_layer_h5py.pyc': [12]}})
+
+('CaSe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [10]}})
+
+('ON', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repetition': [8]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'json': [2], 'jsonval.vim': [2], 'jsonlint.vim': [2]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [4], 'rational_test.cpp': [4]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [1], 'function': [6], 'condition-case': [1, 7], 'cons': [1], 'word-or-region': [12], 'region-active-p': [4], 'concat': [1], 'insert-file-contents': [13], 'save-excursion': [12], 'file-name-nondirectory': [11], 'region-beginning': [4], 'file-name-extension': [17], 'region-end': [4], 'line-beginning-position': [21], 'cond': [1], 'x-word-or-region': [14], 'delete-region': [11], 'file-name-sans-extension': [22], 'line-end-position': [15]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [12, 22]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [23]}})
+
+('ScAl', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [0]}})
+
+('PCa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'mapcar': [2]}})
+
+('OK', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'looking-at': [2], 'add-hook': [6]}})
+
+('Ten', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [15], 'file-name-extension': [12], 'file-name-sans-extension': [17]}})
+
+('OI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'point-min': [1], 'thing-at-point': [10], 'bounds-of-thing-at-point': [20], 'point-max': [1], 'point': [1]}})
+
+('ErS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-traverse_dir': [6], 'traverse_dir': [4]}})
+
+('CaS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [10]}})
+
+('OF', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [4], 'beginning-of-line': [10], 'bounds-of-thing-at-point': [7]}})
+
+('OH', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [1], 'nohup.out': [1]}})
+
+('OC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'make-local-variable': [6]}})
+
+('OB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'global-set-key': [2]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.19.1': [2], 'Probability.dat.17.1': [2], 'Probability.dat.16.1': [2], 'Probability.dat.10.1': [2], 'plotProb.py~': [6], 'Probability.dat.7.1': [2], 'Probability.dat.6.1': [2], 'Probability.dat.11.1': [2], 'Probability.dat.18.1': [2], 'Probability.dat.1.1': [2], 'Probability.dat.15.1': [2], 'Probability.dat.14.1': [2], 'Probability.dat.9.1': [2], 'Probability.dat.8.1': [2], 'Probability.dat': [2], 'plotProb.py': [6], 'Probability.dat.20.1': [2], 'Probability.dat.5.1': [2], 'Probability.dat.13.1': [2], 'Probability.dat.4.1': [2], 'Probability.dat.12.1': [2], 'Probability.dat.3.1': [2], 'Probability.dat.2.1': [2]}})
+
+('AsI', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [13], 'hdf_archive_basic_layer_h5py.pyc': [13]}})
+
+('Ran', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Trans.dat': [1]}})
+
+('CeP', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [17]}})
+
+('BaB', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [3], 'Probability.dat.10.1': [3], 'Probability.dat.5.1': [3], 'Probability.dat.14.1': [3], 'Probability.dat.9.1': [3], 'Probability.dat.7.1': [3], 'Probability.dat.8.1': [3], 'Probability.dat.19.1': [3], 'Probability.dat.6.1': [3], 'Probability.dat.3.1': [3], 'Probability.dat': [3], 'Probability.dat.2.1': [3], 'Probability.dat.17.1': [3], 'Probability.dat.15.1': [3], 'Probability.dat.16.1': [3], 'Probability.dat.20.1': [3], 'Probability.dat.18.1': [3], 'Probability.dat.11.1': [3], 'Probability.dat.13.1': [3], 'Probability.dat.4.1': [3], 'Probability.dat.1.1': [3]}})
+
+('BaC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [7], 're-search-backward': [10], 'search-backward': [7], 'skip-chars-backward': [11], 'backward-char': [0]}})
+
+('VO', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Fit_V2O3.pdf': [7], 'w_Fit_Sum_compare_V2O3.pdf': [18], 'st_Fit_Sum_compare_V2O3.pdf': [19], 'Plot_wsq_V2O3.py': [9], 'wsq_Fit_Sum_compare_V2O3.pdf': [20], 'wsq_Fit_V2O3.pdf': [8]}})
+
+('UN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'function': [1], 'unless': [0], 'fboundp': [3], 'defun': [3], 'bounds-of-thing-at-point': [2], 'funcall': [1]}})
+
+('VAr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defvar': [3], 'make-local-variable': [11]}})
+
+('MoO', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'smooth.py': [1], 'smooth.pyc': [1]}})
+
+('OU', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'group.cpp': [2], 'group.hpp': [2]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'fboundp': [2], 'bounds-of-thing-at-point': [1]}})
+
+('HAs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'hash': [0]}})
+
+('OS', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [4]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [16], 'line-end-position': [10]}})
+
+('IEs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [27]}})
+
+('IAs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defalias': [5]}})
+
+('OP', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [22], 'copy-file': [1], 'copy-directory': [1]}})
+
+('YIn', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [13]}})
+
+('ErAc', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'interactive': [3]}})
+
+('PTi', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [19]}})
+
+('PoSi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [15], 'line-end-position': [9]}})
+
+('HP', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [24], 'hdf_archive_basic_layer_h5py.pyc': [24]}})
+
+('PaNd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'expand-file-name': [2]}})
+
+('SCa', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [0]}})
+
+('HU', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [2], 'nohup.out': [2]}})
+
+('OSi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [16], 'line-end-position': [10]}})
+
+('HI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [6], 'enum_shifted.hpp': [6], 'enum_shifted_params.hpp': [6]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'thing-at-point': [1], 'while': [1], 'bounds-of-thing-at-point': [11], 'x-grabthing': [7], 'grabthing': [5]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'history.atom': [0], 'histogram.dat': [0], 'UO2_Jhis.pdf': [4], 'UO2_NJhis.pdf': [5], 'UO2_Nhis.pdf': [4]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [7], 'hdf_archive.py': [7], 'hdf_archive_schemes.py': [7], 'hdf_archive.pyc': [7], 'hdf_archive_basic_layer_h5py.pyc': [7], 'hdf_archive_basic_layer_h5py.py': [7], 'archive': [3]}})
+
+('CoNd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [0], 'cond': [0]}})
+
+('HO', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [11]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'add-hook': [4]}})
+
+('FI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeFiles': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-nondirectory': [0], 'insert-file-contents': [7], 'file.process': [0], 'find-replace': [0], 'delete-file': [7], 'x-find-replace': [2], 'file-name-sans-extension': [0], 'set-file-modes': [4], 'expand-file-name': [7], 'x-file.read-lines': [2], 'copy-file': [5], 'file.read-lines': [0], 'file-relative-name': [0], 'x-file.process': [2], 'define-key': [2], 'file-name-directory': [0], 'buffer-modified-p': [11], 'directory-files': [10], 'rename-file': [7], 'file-name-extension': [0], 'buffer-file-name': [7], 'find-file': [0, 5]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'Jamfile.v2': [3]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Fit_V2O3.pdf': [3], 'st_Fit_Sum_compare_V2O3.pdf': [3], 'w_Fit_Sum_compare_V2O3.pdf': [2], 'wsq_Fit.dat': [4], 'wsq_Fit_Sum_compare_V2O3.pdf': [4], 'wsq_Fit_V2O3.pdf': [4], 'st_Fit.dat': [3]}})
+
+('HB', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'s_hb1.dat': [2], 'g_hb0.dat': [2], 'g_hb1.dat': [2]}})
+
+('nIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}})
+
+('Hen', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'when': [1]}})
+
+('PuS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'push': [0]}})
+
+('CePt', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [17]}})
+
+('Ren', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'current-buffer': [3], 'rename-file': [0], 'with-current-buffer': [8]}})
+
+('PU', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'push': [0], 'put': [0]}})
+
+('OCa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'make-local-variable': [6]}})
+
+('ReS', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'progress.marks': [4]}})
+
+('ReP', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repeat.hpp': [0], 'repetition': [0], 'repeat_from_to.hpp': [0]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'replace-regexp': [0], 'x-find-replace': [7], 'repeat': [0], 'replace-regexp-in-string': [0], 'find-replace': [5]}})
+
+('PY', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [8]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'copy-file': [2], 'copy-directory': [2]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [25], 'hdf_archive_basic_layer_h5py.pyc': [25]}})
+
+('BiNa', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [13], 'enum_trailing_binary_params.hpp': [14], 'enum_binary_params.hpp': [5]}})
+
+('Inn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [8], 'region-beginning': [10], 'beginning-of-line': [3], 'match-beginning': [9]}})
+
+('SmO', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'smooth.py': [0], 'smooth.pyc': [0]}})
+
+('PC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'mapc': [2], 'mapcar': [2]}})
+
+('ReN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'current-buffer': [3], 'rename-file': [0], 'with-current-buffer': [8]}})
+
+('HAr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'backward-char': [10], 'forward-char': [9], 'delete-char': [8], 'skip-chars-backward': [6], 'skip-chars-forward': [6], 'goto-char': [6]}})
+
+('BEr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'string-to-number': [13], 'number-to-string': [3]}})
+
+('ReC', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [7]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'directory-files': [2], 'delete-directory': [9], 'make-directory': [7], 'file-name-nondirectory': [15], 'copy-directory': [7], 'file-name-directory': [12]}})
+
+('FO', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'for.hpp': [0]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'forward-line': [0], 'format': [0], 'forward-char': [0], 'search-forward-regexp': [7], 'skip-chars-forward': [11], 'search-forward': [7], 're-search-forward': [10]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [2]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [16]}})
+
+('ReF', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'aref': [1]}})
+
+('PO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'point-min': [0], 'point': [0], 'bounds-of-thing-at-point': [19], 'thing-at-point': [9], 'line-beginning-position': [15], 'point-max': [0], 'line-end-position': [9]}})
+
+('InTe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'interactive': [0]}})
+
+('ONa', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [4], 'rational_test.cpp': [4]}})
+
+('ScH', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [12], 'hdf_archive_schemes.py': [12]}})
+
+('PtI', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [19]}})
+
+('PrIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'print': [0], 'princ': [0]}})
+
+('Non', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-nondirectory': [10]}})
+
+('OsI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [16], 'line-end-position': [10]}})
+
+('nLi', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [3]}})
+
+('InS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [0], 'insert': [0]}})
+
+('Un', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'function': [1], 'unless': [0], 'fboundp': [3], 'defun': [3], 'bounds-of-thing-at-point': [2], 'funcall': [1]}})
+
+('INi', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [2], '__init__.py': [2]}})
+
+('TcH', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'match-end': [2], 'match-string': [2], 'string-match': [9], 'match-beginning': [2]}})
+
+('INd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-find-replace': [3], 'find-file': [1], 'find-replace': [1]}})
+
+('INe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [8], 'forward-line': [9], 'beginning-of-line': [14], 'line-beginning-position': [1], 'define-key': [3], 'line-end-position': [1]}})
+
+('Nin', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}})
+
+('INa', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [14], 'enum_trailing_binary_params.hpp': [15], 'enum_binary_params.hpp': [6]}})
+
+('BaSi', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [12], 'hdf_archive_basic_layer_h5py.pyc': [12]}})
+
+('NdI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [2], 'file-name-nondirectory': [12]}})
+
+('Con', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [0], 'condition-case': [0], 'cons': [0], 'insert-file-contents': [12], 'cond': [0], 'concat': [0]}})
+
+('FIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-find-replace': [2], 'find-file': [0], 'find-replace': [0], 'define-key': [2]}})
+
+('AmP', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [11]}})
+
+('UP', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'group.cpp': [3], 'group.hpp': [3]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [3], 'nohup.out': [3]}})
+
+('US', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'push': [1], 'custom-autoload': [1], 'defcustom': [4]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'status.019': [4], 'status.018': [4], 'status.031': [4], 'status.030': [4], 'status.015': [4], 'status.014': [4], 'status.017': [4], 'status.016': [4], 'status.011': [4], 'status.010': [4], 'status.013': [4], 'status.012': [4], 'status.008': [4], 'status.027': [4], 'status.028': [4], 'status.029': [4], 'status.020': [4], 'status.021': [4], 'status.022': [4], 'status.023': [4], 'status.024': [4], 'status.025': [4], 'status.026': [4], 'status.009': [4], 'status.006': [4], 'status.007': [4], 'status.004': [4], 'status.005': [4], 'status.002': [4], 'status.003': [4], 'status.000': [4], 'status.001': [4]}})
+
+('ErI', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'derivative.py': [1], 'derivative.pyc': [1]}})
+
+('UO', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'UO2_Jhis.pdf': [0], 'UO2_NJweight.pdf': [0], 'UO2_NJhis.pdf': [0], 'UO2_Nhis.pdf': [0]}})
+
+('INo', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'minor_mode': [1]}})
+
+('FTe', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [8], 'enum_shifted.hpp': [8], 'enum_shifted_params.hpp': [8]}})
+
+('VAt', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'derivative.py': [4], 'derivative.pyc': [4]}})
+
+('YTh', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [9]}})
+
+('NdP', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'fboundp': [4]}})
+
+('NdS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'bounds-of-thing-at-point': [3]}})
+
+('UF', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'set-buffer': [5], 'buffer-substring-no-properties': [1], 'with-current-buffer': [14], 'buffer-substring': [1], 'kill-buffer': [6], 'save-buffer': [6], 'current-buffer': [9], 'buffer-file-name': [1], 'buffer-modified-p': [1]}})
+
+('UC', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'deduce_r.hpp': [3], 'deduce_z.hpp': [3]}})
+
+('UB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring': [8], 'buffer-substring-no-properties': [8], 'substring': [1], 'defsubst': [4]}})
+
+('ReNa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'rename-file': [0]}})
+
+('BTh', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-grabthing': [5], 'grabthing': [3]}})
+
+('FS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defsubst': [2]}})
+
+('FCu', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defcustom': [2]}})
+
+('Nn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [9], 'region-beginning': [11], 'beginning-of-line': [4], 'match-beginning': [10]}})
+
+('SiTi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [17], 'line-end-position': [11]}})
+
+('OLi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'dolist': [1]}})
+
+('PoI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'point-min': [0], 'thing-at-point': [9], 'bounds-of-thing-at-point': [19], 'point-max': [0], 'point': [0]}})
+
+('nAl', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [5], 'rational_test.cpp': [5]}})
+
+('nAm', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'rename-file': [2], 'file-name-directory': [5], 'expand-file-name': [12], 'file-name-nondirectory': [5], 'file-name-extension': [5], 'file-relative-name': [14], 'buffer-file-name': [12], 'file-name-sans-extension': [5]}})
+
+('nAr', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [15], 'enum_trailing_binary_params.hpp': [16], 'enum_binary_params.hpp': [7]}})
+
+('FB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'fboundp': [0]}})
+
+('FC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defcustom': [2]}})
+
+('nO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'not': [0], 'minor_mode': [2], 'yes-or-no-p': [7], 'buffer-substring-no-properties': [17], 'file-name-nondirectory': [10]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [0], 'nohup.out': [0]}})
+
+('NF', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [15]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [1]}})
+
+('TiEs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [26]}})
+
+('ErTi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [24]}})
+
+('AmS', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [8], 'enum_trailing_params.hpp': [17], 'enum_shifted_binary_params.hpp': [23], 'enum_binary_params.hpp': [15], 'enum_params_with_defaults.hpp': [8], 'enum_params_with_a_default.hpp': [8], 'enum_trailing_binary_params.hpp': [24], 'enum_shifted_params.hpp': [16]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'PARAMS': [3]}})
+
+('BiLi', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [5], 'Probability.dat.10.1': [5], 'Probability.dat.5.1': [5], 'Probability.dat.14.1': [5], 'Probability.dat.9.1': [5], 'Probability.dat.7.1': [5], 'Probability.dat.8.1': [5], 'Probability.dat.19.1': [5], 'Probability.dat.6.1': [5], 'Probability.dat.3.1': [5], 'Probability.dat': [5], 'Probability.dat.2.1': [5], 'Probability.dat.17.1': [5], 'Probability.dat.15.1': [5], 'Probability.dat.16.1': [5], 'Probability.dat.20.1': [5], 'Probability.dat.18.1': [5], 'Probability.dat.11.1': [5], 'Probability.dat.13.1': [5], 'Probability.dat.4.1': [5], 'Probability.dat.1.1': [5]}})
+
+('ArAm', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [6], 'enum_trailing_params.hpp': [15], 'enum_shifted_binary_params.hpp': [21], 'enum_binary_params.hpp': [13], 'enum_params_with_defaults.hpp': [6], 'enum_params_with_a_default.hpp': [6], 'enum_trailing_binary_params.hpp': [22], 'enum_shifted_params.hpp': [14]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'PARAMS': [1]}})
+
+('NH', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'UO2_Nhis.pdf': [3]}})
+
+('NI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [3], '__init__.py': [3]}})
+
+('AsS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'assq': [0]}})
+
+('CuS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'custom-autoload': [0], 'defcustom': [3]}})
+
+('NO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'not': [0], 'minor_mode': [2], 'yes-or-no-p': [7], 'buffer-substring-no-properties': [17], 'file-name-nondirectory': [10]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'nohup_imp.out': [0], 'nohup.out': [0]}})
+
+('SO', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'json': [1], 'jsonval.vim': [1], 'jsonlint.vim': [1]}})
+
+('NC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [2], 'function': [2], 'concat': [2], 'princ': [3]}})
+
+('FrO', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repeat_from_to.hpp': [7]}})
+
+('PEr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring-no-properties': [23]}})
+
+('ILi', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_trailing.hpp': [8], 'enum_trailing_binary_params.hpp': [8], 'enum_trailing_params.hpp': [8]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [6], 'Probability.dat.10.1': [6], 'Probability.dat.5.1': [6], 'Probability.dat.14.1': [6], 'Probability.dat.9.1': [6], 'Probability.dat.7.1': [6], 'Probability.dat.8.1': [6], 'Probability.dat.19.1': [6], 'Probability.dat.6.1': [6], 'Probability.dat.3.1': [6], 'Probability.dat': [6], 'Probability.dat.2.1': [6], 'Probability.dat.17.1': [6], 'Probability.dat.15.1': [6], 'Probability.dat.16.1': [6], 'Probability.dat.20.1': [6], 'Probability.dat.18.1': [6], 'Probability.dat.11.1': [6], 'Probability.dat.13.1': [6], 'Probability.dat.4.1': [6], 'Probability.dat.1.1': [6]}})
+
+('SMo', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'smooth.py': [0], 'smooth.pyc': [0]}})
+
+('ReLa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-relative-name': [5]}})
+
+('NS', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [23]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [2], 'insert': [1], 'cons': [2], 'insert-file-contents': [1], 'file-name-extension': [14], 'file-name-sans-extension': [12, 19]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Trans.dat': [3]}})
+
+('NU', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [1], 'enum.hpp': [1], 'enum_trailing.hpp': [1], 'enum_trailing_params.hpp': [1], 'enum_shifted_binary_params.hpp': [1], 'enum_binary_params.hpp': [1], 'enum_params_with_defaults.hpp': [1], 'enum_params_with_a_default.hpp': [1], 'enum_trailing_binary_params.hpp': [1], 'enum_shifted.hpp': [1], 'enum_shifted_params.hpp': [1]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'string-to-number': [10], 'number-to-string': [0], 'null': [0]}})
+
+('NV', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonval.vim': [3]}})
+
+('CK', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [9], 're-search-backward': [12], 'search-backward': [9], 'skip-chars-backward': [13], 'backward-char': [2]}})
+
+('PaRe', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Fit_Sum_compare_V2O3.pdf': [14], 'wsq_Fit_Sum_compare_V2O3.pdf': [15], 'w_Fit_Sum_compare_V2O3.pdf': [13]}})
+
+('CH', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [4], 'search-forward-regexp': [4], 'backward-char': [9], 'forward-char': [8], 'delete-char': [7], 'match-string': [3], 're-search-backward': [7], 'search-backward': [4], 'skip-chars-backward': [5], 'skip-chars-forward': [5], 'goto-char': [5], 'match-beginning': [3], 'search-forward': [4], 'match-end': [3], 'string-match': [10], 're-search-forward': [7]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [6, 13], 'hdf_archive.py': [6], 'hdf_archive_schemes.py': [6, 13], 'hdf_archive.pyc': [6], 'hdf_archive_basic_layer_h5py.pyc': [6], 'hdf_archive_basic_layer_h5py.py': [6], 'archive': [2]}})
+
+('CO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [0], 'condition-case': [0], 'cons': [0], 'insert-file-contents': [12], 'copy-file': [0], 'copy-directory': [0], 'cond': [0], 'concat': [0]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Fit_Sum_compare_V2O3.pdf': [11], 'wsq_Fit_Sum_compare_V2O3.pdf': [12], 'w_Fit_Sum_compare_V2O3.pdf': [10]}})
+
+('ITh', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params_with_a_default.hpp': [13], 'enum_params_with_defaults.hpp': [13]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'with-current-buffer': [1]}})
+
+('ITi', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repetition': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [4], 'line-beginning-position': [18], 'line-end-position': [12]}})
+
+('AmB', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'lambda': [1]}})
+
+('SeAr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [0], 'search-forward-regexp': [0], 're-search-backward': [3], 'search-backward': [0], 'search-forward': [0], 're-search-forward': [3]}})
+
+('ITe', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'make_h5_read_write.hpp': [14]}})
+
+('POs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [15], 'line-end-position': [9]}})
+
+('NTh', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'nth': [0]}})
+
+('InN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [8], 'region-beginning': [10], 'beginning-of-line': [3], 'match-beginning': [9]}})
+
+('InO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'minor_mode': [1]}})
+
+('nF', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [15]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [1]}})
+
+('PLa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'replace-regexp': [2], 'x-find-replace': [9], 'replace-regexp-in-string': [2], 'find-replace': [7]}})
+
+('CS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'emacs-lisp-mode': [3]}})
+
+('LiNe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [7], 'forward-line': [8], 'line-beginning-position': [0], 'beginning-of-line': [13], 'line-end-position': [0]}})
+
+('LaC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'replace-regexp': [3], 'x-find-replace': [10], 'replace-regexp-in-string': [3], 'find-replace': [8]}})
+
+('NTe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [14], 'interactive': [1]}})
+
+('HeN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'when': [1]}})
+
+('CU', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'current-buffer': [0], 'custom-autoload': [0], 'save-excursion': [7], 'with-current-buffer': [5], 'defcustom': [3]}})
+
+('InC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'princ': [2]}})
+
+('AmF', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'Jamfile.v2': [1]}})
+
+('nSi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-extension': [14], 'file-name-sans-extension': [19]}})
+
+('VEr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'x-traverse_dir': [5], 'traverse_dir': [3]}})
+
+('Pan', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'expand-file-name': [2]}})
+
+('KI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'kill-buffer': [0], 'looking-at': [3], 'skip-chars-backward': [1], 'skip-chars-forward': [1]}})
+
+('SP', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [3], 'emacs-lisp-mode': [8], 'split-string': [0]}})
+
+('nSe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [1], 'insert': [1]}})
+
+('SU', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-substring': [7], 'buffer-substring-no-properties': [7], 'substring': [0], 'defsubst': [3]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'st_Sum.dat': [3], 'wsq_Fit_Sum_compare_V2O3.pdf': [8], 'wsq_Sum.dat': [4], 'w_Fit_Sum_compare_V2O3.pdf': [6], 'st_Fit_Sum_compare_V2O3.pdf': [7]}})
+
+('CTi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'function': [3], 'interactive': [6], 'region-active-p': [8]}})
+
+('SK', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'skip-chars-backward': [0], 'skip-chars-forward': [0]}})
+
+('SI', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [14], 'hdf_archive_basic_layer_h5py.pyc': [14]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'save-excursion': [10], 'line-beginning-position': [17], 'file-name-extension': [15], 'file-name-sans-extension': [20], 'line-end-position': [11]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Sig.out.2.1': [0], 'Sig.out.3.1': [0], 'Sig.out.6.1': [0], 'Sig.out.5.1': [0], 'Sig.out.9.1': [0], 'Sig.out.1.1': [0], 'Sig.out.20.1': [0], 'Sig.out.11.1': [0], 'Sig.out.16.1': [0], 'Sig.out.17.1': [0], 'Sig.out.14.1': [0], 'Sig.out.15.1': [0], 'Sig.out': [0], 'Sig.out.18.1': [0], 'Sig.out.19.1': [0], 'Sig.out.8.1': [0], 'sig.out': [0], 'Sig.out.12.1': [0], 'Sig.outb': [0], 'Sig.out.13.1': [0], 'Sig.out.4.1': [0], 'Sig.out.7.1': [0], 'Sig.out.10.1': [0]}})
+
+('SH', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [5], 'enum_shifted.hpp': [5], 'enum_shifted_params.hpp': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'push': [2], 'hash': [2]}})
+
+('UNd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'fboundp': [3], 'bounds-of-thing-at-point': [2]}})
+
+('ThIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'thing-at-point': [0], 'bounds-of-thing-at-point': [10], 'x-grabthing': [6], 'grabthing': [4]}})
+
+('NeW', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'new.cix': [0]}})
+
+('SC', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [0]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [12], 'hdf_archive_schemes.py': [12]}})
+
+('KW', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [10], 're-search-backward': [13], 'search-backward': [10], 'skip-chars-backward': [14], 'backward-char': [3]}})
+
+('NDs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'bounds-of-thing-at-point': [3]}})
+
+('InI', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [2], '__init__.py': [2]}})
+
+('CHe', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [13], 'hdf_archive_schemes.py': [13]}})
+
+('WAr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'forward-line': [3], 'backward-char': [4], 'forward-char': [3], 'search-forward-regexp': [10], 're-search-backward': [14], 'search-backward-regexp': [11], 'skip-chars-backward': [15], 'search-backward': [11], 'search-forward': [10], 'skip-chars-forward': [14], 're-search-forward': [13]}})
+
+('BIn', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [13], 'enum_trailing_binary_params.hpp': [14], 'enum_binary_params.hpp': [5]}})
+
+('NSi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-extension': [14], 'file-name-sans-extension': [19]}})
+
+('NiN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}})
+
+('nN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [9], 'region-beginning': [11], 'beginning-of-line': [4], 'match-beginning': [10]}})
+
+('OIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'point-min': [1], 'thing-at-point': [10], 'bounds-of-thing-at-point': [20], 'point-max': [1], 'point': [1]}})
+
+('Hon', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [11]}})
+
+('Lin', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_trailing.hpp': [9], 'enum_trailing_binary_params.hpp': [9], 'enum_trailing_params.hpp': [9]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [7], 'forward-line': [8], 'line-beginning-position': [0], 'beginning-of-line': [13], 'line-end-position': [0]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [4]}})
+
+('nC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [2], 'function': [2], 'concat': [2], 'princ': [3]}})
+
+('NSe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [1], 'insert': [1]}})
+
+('ONd', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [1], 'file-name-nondirectory': [11], 'cond': [1]}})
+
+('FAu', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params_with_a_default.hpp': [21], 'enum_params_with_defaults.hpp': [19]}})
+
+('InSe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [0], 'insert': [0]}})
+
+('NLi', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [3]}})
+
+('UCe', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'deduce_r.hpp': [3], 'deduce_z.hpp': [3]}})
+
+('LaY', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [18], 'hdf_archive_basic_layer_h5py.pyc': [18]}})
+
+('FAl', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defalias': [2]}})
+
+('FEr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'set-buffer': [7], 'buffer-substring-no-properties': [3], 'with-current-buffer': [16], 'buffer-substring': [3], 'kill-buffer': [8], 'save-buffer': [8], 'current-buffer': [11], 'buffer-file-name': [3], 'buffer-modified-p': [3]}})
+
+('nI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [3], '__init__.py': [3]}})
+
+('AsH', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'hash': [1]}})
+
+('nU', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [1], 'enum.hpp': [1], 'enum_trailing.hpp': [1], 'enum_trailing_params.hpp': [1], 'enum_shifted_binary_params.hpp': [1], 'enum_binary_params.hpp': [1], 'enum_params_with_defaults.hpp': [1], 'enum_params_with_a_default.hpp': [1], 'enum_trailing_binary_params.hpp': [1], 'enum_shifted.hpp': [1], 'enum_shifted_params.hpp': [1]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'string-to-number': [10], 'number-to-string': [0], 'null': [0]}})
+
+('HIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'thing-at-point': [1], 'bounds-of-thing-at-point': [11], 'x-grabthing': [7], 'grabthing': [5]}})
+
+('TiV', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'region-active-p': [9], 'interactive': [7], 'file-relative-name': [9]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'derivative.py': [6], 'derivative.pyc': [6]}})
+
+('ThO', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [10]}})
+
+('nS', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [23]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [2], 'insert': [1], 'cons': [2], 'insert-file-contents': [1], 'file-name-extension': [14], 'file-name-sans-extension': [12, 19]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'Trans.dat': [3]}})
+
+('EsS', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'progress.marks': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'message': [1], 'unless': [3]}})
+
+('PaRa', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_params.hpp': [5], 'enum_trailing_params.hpp': [14], 'enum_shifted_binary_params.hpp': [20], 'enum_binary_params.hpp': [12], 'enum_params_with_defaults.hpp': [5], 'enum_params_with_a_default.hpp': [5], 'enum_trailing_binary_params.hpp': [21], 'enum_shifted_params.hpp': [13]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'PARAMS': [0]}})
+
+('BaSe', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'base.hpp': [0]}})
+
+('CAs', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'condition-case': [10]}})
+
+('CAr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'car': [0], 'mapcar': [3]}})
+
+('LiN', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_trailing.hpp': [9], 'enum_trailing_binary_params.hpp': [9], 'enum_trailing_params.hpp': [9]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [7], 'forward-line': [8], 'line-beginning-position': [0], 'beginning-of-line': [13], 'line-end-position': [0]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [4]}})
+
+('CAt', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'concat': [3]}})
+
+('SiC', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [14], 'hdf_archive_basic_layer_h5py.pyc': [14]}})
+
+('BaBi', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'Probability.dat.12.1': [3], 'Probability.dat.10.1': [3], 'Probability.dat.5.1': [3], 'Probability.dat.14.1': [3], 'Probability.dat.9.1': [3], 'Probability.dat.7.1': [3], 'Probability.dat.8.1': [3], 'Probability.dat.19.1': [3], 'Probability.dat.6.1': [3], 'Probability.dat.3.1': [3], 'Probability.dat': [3], 'Probability.dat.2.1': [3], 'Probability.dat.17.1': [3], 'Probability.dat.15.1': [3], 'Probability.dat.16.1': [3], 'Probability.dat.20.1': [3], 'Probability.dat.18.1': [3], 'Probability.dat.11.1': [3], 'Probability.dat.13.1': [3], 'Probability.dat.4.1': [3], 'Probability.dat.1.1': [3]}})
+
+('TiO', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [20]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repetition': [6]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'function': [4], 'condition-case': [5], 'line-beginning-position': [19], 'line-end-position': [13]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [2], 'rational_test.cpp': [2]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [21]}})
+
+('BAc', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [7], 're-search-backward': [10], 'search-backward': [7], 'skip-chars-backward': [11], 'backward-char': [0]}})
+
+('CAl', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'scalar.hpp': [1]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [3], 'make-local-variable': [7]}})
+
+('UI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'require': [3]}})
+
+('BAl', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'global-set-key': [3]}})
+
+('SiO', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'save-excursion': [10], 'file-name-extension': [15], 'file-name-sans-extension': [20]}})
+
+('PaN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'expand-file-name': [2]}})
+
+('OTh', '-->', {'/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'smooth.py': [3], 'smooth.pyc': [3]}})
+
+('NAl', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [5], 'rational_test.cpp': [5]}})
+
+('STa', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'status.019': [0], 'status.018': [0], 'status.031': [0], 'status.030': [0], 'status.015': [0], 'status.014': [0], 'status.017': [0], 'status.016': [0], 'status.011': [0], 'status.010': [0], 'status.013': [0], 'status.012': [0], 'status.008': [0], 'status.027': [0], 'status.028': [0], 'status.029': [0], 'status.020': [0], 'status.021': [0], 'status.022': [0], 'status.023': [0], 'status.024': [0], 'status.025': [0], 'status.026': [0], 'status.009': [0], 'status.006': [0], 'status.007': [0], 'status.004': [0], 'status.005': [0], 'status.002': [0], 'status.003': [0], 'status.000': [0], 'status.001': [0]}})
+
+('LaCe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'replace-regexp': [3], 'x-find-replace': [10], 'replace-regexp-in-string': [3], 'find-replace': [8]}})
+
+('nV', '-->', {'/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonval.vim': [3]}})
+
+('AlI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'defalias': [3]}})
+
+('IP', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'skip-chars-backward': [2], 'skip-chars-forward': [2]}})
+
+('IS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'emacs-lisp-mode': [7], 'list': [1], 'dolist': [3]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'history.atom': [1], 'histogram.dat': [1], 'UO2_Jhis.pdf': [5], 'UO2_NJhis.pdf': [6], 'UO2_Nhis.pdf': [5]}})
+
+('PoS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [15], 'line-end-position': [9]}})
+
+('IV', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'region-active-p': [10], 'interactive': [8], 'file-relative-name': [10]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_schemes.pyc': [8], 'hdf_archive.py': [8], 'hdf_archive_schemes.py': [8], 'hdf_archive.pyc': [8], 'hdf_archive_basic_layer_h5py.pyc': [8], 'hdf_archive_basic_layer_h5py.py': [8], 'archive': [4]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'derivative.py': [3, 7], 'derivative.pyc': [3, 7]}})
+
+('YI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [13]}})
+
+('IO', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [21]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'repetition': [7]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'function': [5], 'condition-case': [6], 'word-or-region': [11], 'region-active-p': [3], 'save-excursion': [11], 'region-beginning': [3], 'file-name-extension': [16], 'region-end': [3], 'line-beginning-position': [20], 'x-word-or-region': [13], 'delete-region': [10], 'file-name-sans-extension': [21], 'line-end-position': [14]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [3], 'rational_test.cpp': [3]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [22]}})
+
+('IN', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [14], 'enum_trailing.hpp': [10], 'enum_trailing_binary_params.hpp': [10, 15], 'enum_trailing_params.hpp': [10], 'enum_binary_params.hpp': [6]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [2], '__init__.py': [2]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [8], 'point': [2], 'substring': [6], 'minor_mode': [1], 'string-to-number': [3], 'looking-at': [4], 'grabstring': [7], 'x-grabstring': [9], 'princ': [2], 'point-max': [2], 'insert-file-contents': [0], 'match-string': [9], 'bounds-of-thing-at-point': [12, 21], 'thing-at-point': [2, 11], 'string=': [3], 'find-replace': [1], 'print': [2], 'x-find-replace': [3], 'split-string': [9], 'number-to-string': [13], 'string': [3], 'grabthing': [6], 'buffer-substring-no-properties': [13], 'replace-regexp-in-string': [15, 21], 'find-file': [1], 'match-beginning': [9, 12], 'buffer-substring': [13], 'define-key': [3], 'string-match': [3], 'region-beginning': [10, 13], 'point-min': [2, 7], 'insert': [0], 'forward-line': [9], 'beginning-of-line': [3, 6, 14], 'x-grabthing': [8], 'line-beginning-position': [1, 8, 11], 'interactive': [0], 'stringp': [3], 'line-end-position': [1]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'string.hpp': [3]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [0]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [14]}})
+
+('NCa', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'funcall': [2], 'concat': [2]}})
+
+('IC', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'hdf_archive_basic_layer_h5py.py': [15], 'hdf_archive_basic_layer_h5py.pyc': [15]}})
+
+('ReGe', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'replace-regexp': [8], 'search-backward-regexp': [16], 'word_regexp': [5], 'replace-regexp-in-string': [8], 'search-forward-regexp': [15]}})
+
+('IF', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [7], 'enum_shifted.hpp': [7], 'enum_shifted_params.hpp': [7]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'buffer-modified-p': [10], 'if': [0]}})
+
+('NIn', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [10], 'region-beginning': [12], 'beginning-of-line': [5], 'match-beginning': [11]}})
+
+('CoP', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'copy-file': [0], 'copy-directory': [0]}})
+
+('AtC', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'match-end': [1], 'match-string': [1], 'string-match': [8], 'match-beginning': [1]}})
+
+('nNi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'line-beginning-position': [9], 'region-beginning': [11], 'beginning-of-line': [4], 'match-beginning': [10]}})
+
+('AcK', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'search-backward-regexp': [8], 're-search-backward': [11], 'search-backward': [8], 'skip-chars-backward': [12], 'backward-char': [1]}})
+
+('NdIr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-name-nondirectory': [12]}})
+
+('TeS', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'test': [0], 'rational_test.cpp': [9]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'test': [0]}})
+
+('InAr', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [14], 'enum_trailing_binary_params.hpp': [15], 'enum_binary_params.hpp': [6]}})
+
+('AtI', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [20]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-relative-name': [8]}, '/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/libs/rational/test': {'rational_example.cpp': [1], 'rational_test.cpp': [1]}, '/home/xiaoyu/Work/Workplace/Physics/Projects/V2O3/data_s2/test': {'derivative.py': [5], 'derivative.pyc': [5]}})
+
+('AcS', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'emacs-lisp-mode': [2]}})
+
+('HoN', '-->', {'/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'h5_boost_python_exceptions.hpp': [11]}})
+
+('AtU', '-->', {'/home/xiaoyu/tmp/testPlot/imp.0': {'status.019': [2], 'status.018': [2], 'status.031': [2], 'status.030': [2], 'status.015': [2], 'status.014': [2], 'status.017': [2], 'status.016': [2], 'status.011': [2], 'status.010': [2], 'status.013': [2], 'status.012': [2], 'status.008': [2], 'status.027': [2], 'status.028': [2], 'status.029': [2], 'status.020': [2], 'status.021': [2], 'status.022': [2], 'status.023': [2], 'status.024': [2], 'status.025': [2], 'status.026': [2], 'status.009': [2], 'status.006': [2], 'status.007': [2], 'status.004': [2], 'status.005': [2], 'status.002': [2], 'status.003': [2], 'status.000': [2], 'status.001': [2]}})
+
+('SEr', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'insert-file-contents': [2], 'insert': [2]}})
+
+('ThI', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'thing-at-point': [0], 'bounds-of-thing-at-point': [10], 'x-grabthing': [6], 'grabthing': [4]}})
+
+('In', '-->', {'/home/xiaoyu/Public/Soft/ALPS/alps-2.2.b3-r7462-src-with-boost/boost/boost/preprocessor/repetition': {'enum_shifted_binary_params.hpp': [14], 'enum_trailing.hpp': [10], 'enum_trailing_binary_params.hpp': [10, 15], 'enum_trailing_params.hpp': [10], 'enum_binary_params.hpp': [6]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.2/install/lib/python2.7/dist-packages/pytriqs/archive': {'__init__.pyc': [2], '__init__.py': [2]}, '/home/xiaoyu/.vim_runtime/sources_non_forked/syntastic/syntax_checkers/json': {'jsonlint.vim': [5]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'end-of-line': [8], 'point': [2], 'substring': [6], 'minor_mode': [1], 'string-to-number': [3], 'looking-at': [4], 'grabstring': [7], 'x-grabstring': [9], 'princ': [2], 'point-max': [2], 'insert-file-contents': [0], 'match-string': [9], 'bounds-of-thing-at-point': [12, 21], 'thing-at-point': [2, 11], 'string=': [3], 'find-replace': [1], 'print': [2], 'x-find-replace': [3], 'split-string': [9], 'number-to-string': [13], 'string': [3], 'grabthing': [6], 'buffer-substring-no-properties': [13], 'replace-regexp-in-string': [15, 21], 'find-file': [1], 'match-beginning': [9, 12], 'buffer-substring': [13], 'define-key': [3], 'string-match': [3], 'region-beginning': [10, 13], 'point-min': [2, 7], 'insert': [0], 'forward-line': [9], 'beginning-of-line': [3, 6, 14], 'x-grabthing': [8], 'line-beginning-position': [1, 8, 11], 'interactive': [0], 'stringp': [3], 'line-end-position': [1]}, '/home/xiaoyu/Public/Soft/TRIQS/triqs_1.0/triqs/src/triqs/h5': {'string.hpp': [3]}, '/home/xiaoyu/tmp/testPlot/imp.0': {'info.out': [0]}, '/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [14]}})
+
+('LaTi', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'file-relative-name': [7]}})
+
+('IRe', '-->', {'/home/xiaoyu/Public/Soft/ALPS/build/test/utility/CMakeFiles': {'CMakeDirectoryInformation.cmake': [6]}, '/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'directory-files': [1], 'delete-directory': [8], 'make-directory': [6], 'require': [4], 'file-name-nondirectory': [14], 'dired.process_marked': [1], 'copy-directory': [6], 'file-name-directory': [11], 'x-dired.process_marked': [3]}})
+
+('CoN', '-->', {'/home/xiaoyu/.emacs.d/elpa/yasnippet-20141017.736/snippets/emacs-lisp-mode': {'consp': [0], 'condition-case': [0], 'cons': [0], 'insert-file-contents': [12], 'cond': [0], 'concat': [0]}})
+

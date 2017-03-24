@@ -47,13 +47,15 @@ def generate(dump):
             frequency = 0
             inner_temp = {}
             pattern_in_root = findpattern(keyword, item.split("/")[-1])
-            inner_temp[item.split("/")[-1]] = pattern_in_root
-            frequency += len(pattern_in_root)
+            if len(pattern_in_root) > 0:
+                inner_temp[item.split("/")[-1]] = pattern_in_root
+                frequency += len(pattern_in_root)
 
             for file in filesystem[item]['files']:
-                pattern_in_file = findpattern(keyword, file)
-                inner_temp[file] = pattern_in_file
-                frequency += len(pattern_in_file)
+                pattern_in_file = findpattern(keyword, file.split(".")[0])
+                if len(pattern_in_file) > 0:
+                    inner_temp[file] = pattern_in_file
+                    frequency += len(pattern_in_file)
 
             if frequency > 0:
                 if keyword not in index:
@@ -64,4 +66,5 @@ def generate(dump):
     with open('index.txt', 'w') as f1:
         for k, v in index.items():
             print>>f1, (k, '-->', v)
+            print>>f1
     return index, filesystem

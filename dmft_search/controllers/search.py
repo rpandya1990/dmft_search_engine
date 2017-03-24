@@ -14,7 +14,6 @@ from utilities.indexer import index
 
 # Hardcoded for now
 inv_index, filesystem = index.generate("filesystem.pickle")
-print filesystem
 
 
 class Search(Resource):
