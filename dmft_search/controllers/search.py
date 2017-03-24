@@ -59,19 +59,40 @@ class Search(Resource):
 		for i in xrange(len(elem_in_compound) - 1):
 			bigrams.append(elem_in_compound[i] + elem_in_compound[i + 1])
 
-		# Locate compound names with only 2 elements i.e. 1 bigram
-		if len(bigrams) == 1:
-			if keyword in inv_index:
-				for item in inv_index[keyword]:
-					data = {}
-					data["path"] = item[0]
-					data['last_modified'] = filesystem[item[0]]['last_modified']
-					data['description'] = "coming soon"
-					files = ", ".join(filesystem[item[0]]['files'])
-					folders = ", ".join(filesystem[item[0]]['folders'])
-					data['files'] = files
-					data['folders'] = folders
-					result.append(data)
+		# # Locate compound names with only 2 elements i.e. 1 bigram
+		# if len(bigrams) == 1:
+		# 	if keyword in inv_index:
+		# 		for item in inv_index[keyword].keys():
+		# 			data = {}
+		# 			data["path"] = item
+		# 			data['last_modified'] = filesystem[item]['last_modified']
+		# 			data['description'] = "coming soon"
+		# 			files = ", ".join(filesystem[item]['files'])
+		# 			data['files'] = files
+		# 			result.append(data)
+
+		# Locate compund names with more than 2 elements
+		if len(bigrams) > 1:
+
+			# Get paths which contain all the bigrams
+			superset = []
+			for bigram in bigrams:
+				if bigram not in inv_index:
+					return jsonify({"Data": result})
+				superset.append(inv_index[bigram].keys())
+			candidates = set.intersection(*map(set, superset))
+
+			# From the candiates select only those which contain bigrams at adjacent locations
+
+			# for candidate in candidates:
+			# 	data = {}
+			# 	data["path"] = candidate
+			# 	data['last_modified'] = filesystem[candidate]['last_modified']
+			# 	data['description'] = "coming soon"
+			# 	files = ", ".join(filesystem[candidate]['files'])
+			# 	data['files'] = files
+			# 	result.append(data)
+			# Include in the result if the bigrams are present adjacently
 
 		return jsonify({"Data": result})
 

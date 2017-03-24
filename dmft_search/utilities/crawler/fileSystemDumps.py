@@ -29,7 +29,7 @@ def create(location):
         temp_dict = {}
         temp_dict["last_modified"] = time.ctime(os.path.getmtime(root))
         temp_dict["files"] = files
-        temp_dict["folders"] = dirs
+        # temp_dict["folders"] = dirs
         folders[root] = temp_dict
         for name in files:
             os.path.join(root, name)
