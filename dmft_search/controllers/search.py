@@ -73,7 +73,7 @@ class Search(Resource):
 
 		# Locate compund names with more than 2 elements
 		if len(bigrams) > 1:
-
+			final_result = {}
 			# Get paths which contain all the bigrams
 			superset = []
 			for bigram in bigrams:
@@ -83,16 +83,43 @@ class Search(Resource):
 			candidates = set.intersection(*map(set, superset))
 
 			# From the candiates select only those which contain bigrams at adjacent locations
+			for candidate in candidates:
+			    final_result[candidate] = []
+			    dict1 = {}
+			    frequency = 0
+			    for key in inv_index[bigrams[0]][candidate].keys():
+			        dict1[key] = []
+			        # print inv_index[bigrams[0]][candidate][key]
+			        present = True
+			        for i in xrange(1, len(bigrams)):
+			            if key not in inv_index[bigrams[i]][candidate]:
+			                present = False
+			                break
+			        if present is False:
+			            continue
+			        else:
+			            for item in inv_index[bigrams[0]][candidate][key]:
+			                flag = True
+			                for i in xrange(1, len(bigrams)):
+			                    if (item + i) not in inv_index[bigrams[i]][candidate][key]:
+			                        flag = False
+			                        break
+			                if flag is True:
+			                    dict1[key].append(item)
+			                    frequency += 1
 
-			# for candidate in candidates:
-			# 	data = {}
-			# 	data["path"] = candidate
-			# 	data['last_modified'] = filesystem[candidate]['last_modified']
-			# 	data['description'] = "coming soon"
-			# 	files = ", ".join(filesystem[candidate]['files'])
-			# 	data['files'] = files
-			# 	result.append(data)
-			# Include in the result if the bigrams are present adjacently
+				if frequency > 0:
+				    final_result[candidate].append(dict1)
+
+			for item in final_result.keys():
+				if len(final_result[item]) > 0:
+					data = {}
+					data["path"] = item
+					data['last_modified'] = filesystem[item]['last_modified']
+					data['description'] = "coming soon"
+					files = ", ".join(filesystem[item]['files'])
+					data['files'] = files
+					result.append(data)
 
 		return jsonify({"Data": result})
 
