@@ -1,3 +1,4 @@
+from datetime import datetime
 from flask_restful import Resource
 from flask import jsonify
 from utilities.indexer import index
@@ -18,7 +19,7 @@ inv_index, filesystem = index.generate("filesystem.pickle")
 
 class Search(Resource):
 
-	def get(self, keyword=None):
+	def get(self, keyword=None, show=None):
 		"""Return the path which may contain the compound keyword.
 
 		Note: Locate compound names with 2 or more elements
@@ -37,6 +38,7 @@ class Search(Resource):
 		Args:
 		    keyword: Compound name(Element should start with uppercase)
 		    For example: Fe2O3, CO2, H2SO4 are valid, co2, fe2o3 are not valid
+		    show(None or "Relevance"): Whether search by default(date) or by relevance
 
 		Returns:
 		    JSON containing the search results
@@ -73,7 +75,7 @@ class Search(Resource):
 
 		# Locate compund names with more than 2 elements
 		if len(bigrams) > 1:
-			final_result = {}
+			partial_result = {}
 			# Get paths which contain all the bigrams
 			superset = []
 			for bigram in bigrams:
@@ -84,7 +86,7 @@ class Search(Resource):
 
 			# From the candiates select only those which contain bigrams at adjacent locations
 			for candidate in candidates:
-			    final_result[candidate] = []
+			    partial_result[candidate] = []
 			    dict1 = {}
 			    frequency = 0
 			    for key in inv_index[bigrams[0]][candidate].keys():
@@ -109,18 +111,34 @@ class Search(Resource):
 			                    frequency += 1
 
 				if frequency > 0:
-				    final_result[candidate].append(dict1)
+				    partial_result[candidate].append((dict1, frequency))
 
-			for item in final_result.keys():
-				if len(final_result[item]) > 0:
-					data = {}
-					data["path"] = item
-					data['last_modified'] = filesystem[item]['last_modified']
-					data['description'] = "coming soon"
-					files = ", ".join(filesystem[item]['files'])
-					data['files'] = files
-					result.append(data)
+			# Sort the results by relevance or date
+			final_result = []
 
+			if show == "Relevance":
+				# Sort the results by relevance by calculating the tf.idf
+				pass
+
+			else:
+				# Order by most recently modified
+				for item in partial_result.keys():
+					if len(partial_result[item]) > 0:
+						#  Parse string to date
+						final_result.append((item, datetime.strptime(filesystem[item]['last_modified'], '%a %b %d %H:%M:%S %Y')))
+				# Sort final_result by date
+				final_result = sorted(final_result, key=lambda x: x[1])[::-1]
+				print final_result
+
+			for item in final_result:
+				data = {}
+				data["path"] = item[0]
+				data['last_modified'] = filesystem[item[0]]['last_modified']
+				data['description'] = "coming soon"
+				files = ", ".join(filesystem[item[0]]['files'])
+				data['files'] = files
+				result.append(data)
+		# print result
 		return jsonify({"Data": result})
 
 	def post(self):
