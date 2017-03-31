@@ -19,7 +19,7 @@ inv_index, filesystem = index.generate("filesystem.pickle")
 
 class Search(Resource):
 
-	def get(self, keyword=None, show=None):
+	def get(self, keyword=None, show="Relevance"):
 		"""Return the path which may contain the compound keyword.
 
 		Note: Locate compound names with 2 or more elements
@@ -73,15 +73,15 @@ class Search(Resource):
 		# 			data['files'] = files
 		# 			result.append(data)
 
-		# Locate compund names with more than 2 elements
+	# Locate compund names with more than 2 elements
 		if len(bigrams) > 1:
 			partial_result = {}
 			# Get paths which contain all the bigrams
 			superset = []
 			for bigram in bigrams:
-				if bigram not in inv_index:
-					return jsonify({"Data": result})
-				superset.append(inv_index[bigram].keys())
+			    if bigram not in inv_index:
+			        return jsonify({"Data": result})
+			    superset.append(inv_index[bigram].keys())
 			candidates = set.intersection(*map(set, superset))
 
 			# From the candiates select only those which contain bigrams at adjacent locations
@@ -110,15 +110,22 @@ class Search(Resource):
 			                    dict1[key].append(item)
 			                    frequency += 1
 
-				if frequency > 0:
-				    partial_result[candidate].append((dict1, frequency))
+			    if frequency > 0:
+			        partial_result[candidate].append((dict1, frequency))
 
+			print "Partial Result: "
+			print partial_result
 			# Sort the results by relevance or date
 			final_result = []
 
 			if show == "Relevance":
-				# Sort the results by relevance by calculating the tf.idf
-				pass
+				# Sort the results by relevance by frequency
+				for item in partial_result.keys():
+					if len(partial_result[item]) > 0:
+						#  Parse string to date
+						final_result.append((item, partial_result[item][0][1]))
+				# Sort final_result by frequency
+				final_result = sorted(final_result, key=lambda x: x[1])[::-1]
 
 			else:
 				# Order by most recently modified
@@ -128,7 +135,9 @@ class Search(Resource):
 						final_result.append((item, datetime.strptime(filesystem[item]['last_modified'], '%a %b %d %H:%M:%S %Y')))
 				# Sort final_result by date
 				final_result = sorted(final_result, key=lambda x: x[1])[::-1]
-				print final_result
+
+			print "Final Result: "
+			print final_result
 
 			for item in final_result:
 				data = {}
@@ -138,8 +147,9 @@ class Search(Resource):
 				files = ", ".join(filesystem[item[0]]['files'])
 				data['files'] = files
 				result.append(data)
-		# print result
-		return jsonify({"Data": result})
+
+			# print result
+			return jsonify({"Data": result})
 
 	def post(self):
 		return None
