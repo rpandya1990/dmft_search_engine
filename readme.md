@@ -33,4 +33,6 @@ $ bower install
 
 ### Todos
 
- - Work on smart tokenization(extraction of probable compound names from text)
+ - Error handling in case of invalid keywords
+ - 2 element compounds search
+ - Tokenization to filter inverted indices

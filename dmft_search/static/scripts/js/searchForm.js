@@ -2,8 +2,9 @@
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {items: [], searchString: ''};
+    this.state = {items: [], searchString: '', showBy: 'DATE', 'current': ''};
     this.handleChange = this.handleChange.bind(this);
+    this.handleFilterChange = this.handleFilterChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.resetSearch = this.resetSearch.bind(this);
   }
@@ -12,8 +13,14 @@ class SearchForm extends React.Component {
     this.setState({searchString: event.target.value});
   }
 
+  handleFilterChange(event) {
+    event.preventDefault();
+    this.setState({showBy: event.target.value});
+  }
+
   handleSubmit(event) {
     event.preventDefault();
+    this.setState({current: this.state.showBy});
     this.getData();
   }
 
@@ -24,7 +31,8 @@ class SearchForm extends React.Component {
 
   getData() {
     if (this.state.searchString.length > 0) {
-      var url = "http://localhost:5000/search/" + this.state.searchString;
+      var url = "http://localhost:5000/search/" + this.state.searchString + "/" + this.state.showBy;
+      console.log(url);
       fetch(url)
         .then(response => response.json())
         .then(json => {
@@ -42,7 +50,7 @@ class SearchForm extends React.Component {
     
     var cells = data.map(function(item) {
       return React.createElement("td", {key: item}, 
-              React.createElement("img", {src: item, className: "img-thumbnail", width: "200px", height: "200px"})
+              React.createElement("img", {src: item, className: "img-thumbnail", width: "100px", height: "100px"})
              );
     });
     return React.createElement("tr", null, " ", cells, " ");
@@ -69,12 +77,18 @@ class SearchForm extends React.Component {
   }
 
   render() {
-    var resultComponents = this.generateResult();
+    var resultComponents = React.createElement("div", null, React.createElement("i", null, React.createElement("b", null, "Showing Results by ", this.state.current, ": "), " ", React.createElement("br", null), " ", React.createElement("br", null)), this.generateResult());
     return (
       React.createElement("div", null, 
         React.createElement("div", null, 
           React.createElement("form", {onSubmit: this.handleSubmit}, 
-            React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter compound formula"}), 
+            React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter Formula"}), 
+            React.createElement("div", {style: {display: "inline-block"}}, 
+              React.createElement("select", {className: "selectpicker show-menu-arrow", defaultvalue: this.state.showBy, onChange: this.handleFilterChange}, 
+                React.createElement("option", {value: "DATE"}, "Show Most Recent"), 
+                React.createElement("option", {value: "RELEVANCE"}, "Show Most Relevant")
+              )
+            ), 
             React.createElement("br", null), 
             React.createElement("br", null), 
             React.createElement("input", {className: "btn btn-primary", type: "submit", value: "Search"}), 

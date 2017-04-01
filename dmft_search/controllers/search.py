@@ -19,7 +19,7 @@ inv_index, filesystem = index.generate("filesystem.pickle")
 
 class Search(Resource):
 
-	def get(self, keyword=None, show="Relevance"):
+	def get(self, keyword=None, showby="DATE"):
 		"""Return the path which may contain the compound keyword.
 
 		Note: Locate compound names with 2 or more elements
@@ -45,6 +45,7 @@ class Search(Resource):
 		"""
 
 		result = []
+		print showby
 
 		# Filter the keyword to form multiple bigrams
 		elem_in_compound = []
@@ -80,6 +81,7 @@ class Search(Resource):
 			superset = []
 			for bigram in bigrams:
 			    if bigram not in inv_index:
+			    	print "Hi"
 			        return jsonify({"Data": result})
 			    superset.append(inv_index[bigram].keys())
 			candidates = set.intersection(*map(set, superset))
@@ -113,12 +115,10 @@ class Search(Resource):
 			    if frequency > 0:
 			        partial_result[candidate].append((dict1, frequency))
 
-			print "Partial Result: "
-			print partial_result
 			# Sort the results by relevance or date
 			final_result = []
 
-			if show == "Relevance":
+			if showby == "RELEVANCE":
 				# Sort the results by relevance by frequency
 				for item in partial_result.keys():
 					if len(partial_result[item]) > 0:
@@ -127,7 +127,7 @@ class Search(Resource):
 				# Sort final_result by frequency
 				final_result = sorted(final_result, key=lambda x: x[1])[::-1]
 
-			else:
+			if showby == "DATE":
 				# Order by most recently modified
 				for item in partial_result.keys():
 					if len(partial_result[item]) > 0:
@@ -136,7 +136,6 @@ class Search(Resource):
 				# Sort final_result by date
 				final_result = sorted(final_result, key=lambda x: x[1])[::-1]
 
-			print "Final Result: "
 			print final_result
 
 			for item in final_result:
@@ -148,8 +147,7 @@ class Search(Resource):
 				data['files'] = files
 				result.append(data)
 
-			# print result
-			return jsonify({"Data": result})
+		return jsonify({"Data": result})
 
 	def post(self):
 		return None

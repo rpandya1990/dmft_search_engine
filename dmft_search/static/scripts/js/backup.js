@@ -1,23 +1,23 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-var cols = [
-    { key: 'path', label: 'Path' },
-    { key: 'last_modified', label: 'Last Modified' },    
-    { key: 'files', label: 'Files' },
-    { key: 'folders', label: 'Folders' },
-    { key: 'description', label: 'Description' }
-];
-
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {items: [], searchString: ''};
+    this.state = {items: [], searchString: '', showBy: ''};
     this.handleChange = this.handleChange.bind(this);
+    this.handleFilterChange = this.handleFilterChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.resetSearch = this.resetSearch.bind(this);
   }
 
   handleChange(event) {
     this.setState({searchString: event.target.value});
+    console.log(this.state.searchString);
+  }
+
+  handleFilterChange(event) {
+    this.setState({showBy: event.target.value});
+    // this.setState({showBy: event.target.text});
+    console.log(this.state.showBy);
   }
 
   handleSubmit(event) {
@@ -44,47 +44,62 @@ class SearchForm extends React.Component {
   }
 
   generateRows() {
-        var cols = this.props.cols,  // [{key, label}]
-            data = this.state.items;
-
-        return data.map(function(item) {
-            // handle the column data within each row
-            var cells = cols.map(function(colData) {
-
-                // colData.key might be "firstName"
-                return React.createElement("td", {key: colData.key}, " ", item[colData.key], " ");
-            });
-            return React.createElement("tr", {key: item.path}, " ", cells, " ");
-        });
-    }
-
-  generateHeaders() {
-    var cols = this.props.cols;  // [{key, label}]
-
-    // generate our header (th) cell components
-    return cols.map(function(colData) {
-        return React.createElement("th", {key: colData.key}, " ", colData.label, " ");
+    var data = ["https://www.oneblowdrybar.com/wp-content/uploads/2013/05/placeholder2.png",
+        "http://ccmmp.ph.qmul.ac.uk/sites/default/files/styles/newsimage/public/newsimages/Perovskite.png?itok=eYV75gwZ",
+        "http://news.rice.edu/files/2013/11/1111_ARO-BB.jpg"];
+    
+    var cells = data.map(function(item) {
+      return React.createElement("td", {key: item}, 
+              React.createElement("img", {src: item, className: "img-thumbnail", width: "200px", height: "200px"})
+             );
     });
+    return React.createElement("tr", null, " ", cells, " ");
+  }
+
+  generateResult() {
+    var data = this.state.items;
+    var rowComponents = this.generateRows();
+    return data.map(function(item) {
+      return  React.createElement("div", {key: item.path}, 
+                React.createElement("h3", null, item.path), 
+                "Hello, This is sample description", 
+                React.createElement("br", null), 
+                React.createElement("br", null), 
+                React.createElement("table", null, 
+                  rowComponents
+                ), 
+                React.createElement("br", null), 
+                React.createElement("br", null), 
+                React.createElement("br", null), 
+                React.createElement("br", null)
+              );
+    })
   }
 
   render() {
-    var headerComponents = this.generateHeaders(),
-        rowComponents = this.generateRows();
+    var resultComponents = this.generateResult();
     return (
       React.createElement("div", null, 
-        React.createElement("form", {onSubmit: this.handleSubmit}, 
-          React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter compound formula"}), 
+        React.createElement("div", null, 
+          React.createElement("form", {onSubmit: this.handleSubmit}, 
+            React.createElement("input", {className: "resizedTextbox", type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Enter Formula"}), 
+            React.createElement("div", {style: {display: "inline-block"}}, 
+              React.createElement("select", {className: "selectpicker", defaultValue: this.state.showBy, onChange: this.handleFilterChange}, 
+                React.createElement("option", {value: ""}, "Most Recent"), 
+                React.createElement("option", {value: "Relevance"}, "Most Relevance")
+              )
+            ), 
+            React.createElement("br", null), 
+            React.createElement("br", null), 
+            React.createElement("input", {className: "btn btn-primary", type: "submit", value: "Search"}), 
+            React.createElement("button", {type: "button", className: "btn btn-primary", onClick: this.resetSearch}, "Reset")
+          ), 
           React.createElement("br", null), 
           React.createElement("br", null), 
-          React.createElement("input", {className: "btn btn-primary", type: "submit", value: "Search"}), 
-          React.createElement("button", {type: "button", className: "btn btn-primary", onClick: this.resetSearch}, "Reset")
+          React.createElement("br", null)
         ), 
-        React.createElement("br", null), 
-        React.createElement("div", {className: "table-responsive"}, 
-            React.createElement("table", {id: "myTable", className: "table"}, 
-                React.createElement("thead", null, " ", headerComponents, " "), 
-                React.createElement("tbody", null, " ", rowComponents, " ")
-            )
+        React.createElement("div", null, 
+          resultComponents
         )
       )
     );
@@ -95,6 +110,6 @@ module.exports = SearchForm;
 
 const main = document.getElementById('main');
 
-ReactDOM.render(React.createElement(SearchForm, {cols: cols}), main);
+ReactDOM.render(React.createElement(SearchForm, null), main);
 
 },{}]},{},[1]);

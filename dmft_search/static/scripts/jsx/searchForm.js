@@ -1,8 +1,9 @@
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {items: [], searchString: ''};
+    this.state = {items: [], searchString: '', showBy: 'DATE', 'current': ''};
     this.handleChange = this.handleChange.bind(this);
+    this.handleFilterChange = this.handleFilterChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.resetSearch = this.resetSearch.bind(this);
   }
@@ -11,8 +12,14 @@ class SearchForm extends React.Component {
     this.setState({searchString: event.target.value});
   }
 
+  handleFilterChange(event) {
+    event.preventDefault();
+    this.setState({showBy: event.target.value});
+  }
+
   handleSubmit(event) {
     event.preventDefault();
+    this.setState({current: this.state.showBy});
     this.getData();
   }
 
@@ -23,7 +30,8 @@ class SearchForm extends React.Component {
 
   getData() {
     if (this.state.searchString.length > 0) {
-      var url = "http://localhost:5000/search/" + this.state.searchString;
+      var url = "http://localhost:5000/search/" + this.state.searchString + "/" + this.state.showBy;
+      console.log(url);
       fetch(url)
         .then(response => response.json())
         .then(json => {
@@ -41,7 +49,7 @@ class SearchForm extends React.Component {
     
     var cells = data.map(function(item) {
       return <td key={item}>
-              <img src={item} className="img-thumbnail" width="200px" height="200px"/>
+              <img src={item} className="img-thumbnail" width="100px" height="100px"/>
              </td>;
     });
     return <tr> {cells} </tr>;
@@ -68,12 +76,18 @@ class SearchForm extends React.Component {
   }
 
   render() {
-    var resultComponents = this.generateResult();
+    var resultComponents = <div><i><b>Showing Results by {this.state.current}: </b> <br /> <br /></i>{this.generateResult()}</div>;
     return (
       <div>
         <div>
           <form onSubmit={this.handleSubmit}>
-            <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter compound formula"/>
+            <input className="resizedTextbox" type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Enter Formula"/>
+            <div style={{display: "inline-block"}}>
+              <select className="selectpicker show-menu-arrow" defaultvalue={this.state.showBy} onChange={this.handleFilterChange}>
+                <option value="DATE">Show Most Recent</option>
+                <option value="RELEVANCE">Show Most Relevant</option>
+              </select>
+            </div>
             <br />
             <br />
             <input className="btn btn-primary" type="submit" value="Search" />

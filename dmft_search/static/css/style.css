@@ -9,12 +9,17 @@ h3 {
 }
 
 div {
-	margin-left:30px;
+	margin-left:10px;
 }
 
 table {
 	border-collapse: collapse;
 	border: none;
+}
+
+i {
+	color: grey;
+	padding-bottom: 50px;
 }
 
 td {
@@ -28,4 +33,12 @@ td {
 	margin-right: 5px;
 }
 
-.resizedTextbox {width: 50%; height: 30px}
+.resizedTextbox {
+	width: 150px;
+	height: 30px;
+	padding: : 10px;
+}
+
+.selectpicker {
+	width: 50%;
+}

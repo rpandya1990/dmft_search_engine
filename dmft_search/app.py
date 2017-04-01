@@ -10,7 +10,7 @@ api = Api(app)
 def index():
     return render_template('index.html')
 
-api.add_resource(search.Search, '/search/<string:keyword>')
+api.add_resource(search.Search, '/search/<string:keyword>/<string:showby>')
 
 
 if __name__ == '__main__':
