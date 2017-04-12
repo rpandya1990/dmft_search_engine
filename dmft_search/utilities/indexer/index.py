@@ -39,10 +39,11 @@ def generate(dump):
     """
 
     keywords, inverted_keywords = keystorefile.create()
-    filesystem = fileSystemDumps.load(dump)
+    crawlobj = fileSystemDumps.Crawler()
+    filesystem = crawlobj.load(dump)
     index = {}
     print "Building indexes :"
-    for item in tqdm(filesystem.keys()[1:10]):
+    for item in tqdm(filesystem.keys()[1:1000]):
         for keyword in keywords.keys():
             frequency = 0
             inner_temp = {}

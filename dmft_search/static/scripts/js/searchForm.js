@@ -2,7 +2,7 @@
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {items: [], searchString: '', showBy: 'DATE', 'current': ''};
+    this.state = {items: [], searchString: '', showBy: 'DATE', current: ''};
     this.handleChange = this.handleChange.bind(this);
     this.handleFilterChange = this.handleFilterChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -16,6 +16,7 @@ class SearchForm extends React.Component {
   handleFilterChange(event) {
     event.preventDefault();
     this.setState({showBy: event.target.value});
+    this.handleSubmit();
   }
 
   handleSubmit(event) {
@@ -25,7 +26,7 @@ class SearchForm extends React.Component {
   }
 
   resetSearch(event) {
-    this.setState({items: [], searchString: ''});
+    this.setState({items: [], searchString: '', showBy: 'DATE', current: ''});
     event.preventDefault();
   }
 
