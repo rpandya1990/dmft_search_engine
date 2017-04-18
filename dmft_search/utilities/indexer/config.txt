@@ -1,0 +1,5 @@
+[FileSystemDump]
+Path = utilities/crawler/dumps/filesystem.pickle
+
+[IndexDump]
+Path = utilities/indexer/IndexDumps/Index.pickle

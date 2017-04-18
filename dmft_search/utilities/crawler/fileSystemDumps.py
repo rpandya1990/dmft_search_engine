@@ -3,6 +3,7 @@ import numpy as np
 import time
 import pickle
 import re
+import ConfigParser
 from periodictable import *
 from utilities.keystore import keystorefile
 
@@ -11,6 +12,10 @@ class Crawler(object):
     """Crawler class which intelligently crawls and includes probable candidates."""
 
     def __init__(self):
+        config = ConfigParser.ConfigParser()
+        config.readfp(open(r'config.txt'))
+        self.locations = config.get('Seeds', 'Paths')
+        self.dump_location = config.get('Dump', Path)
         keywords, inverted_keywords = keystorefile.create()
         self.keywords = map(lambda x: x.lower(), keywords.keys())
 
@@ -38,7 +43,7 @@ class Crawler(object):
                 return True
         return False
 
-    def create(self, location):
+    def create(self):
         """Create a filesystem dump(dictionary) by crawling.
 
         Every entry in the dictionary is an entry as below
@@ -60,44 +65,30 @@ class Crawler(object):
             location: path of the filesystem
         """
         folders = {}
-        for root, dirs, files in os.walk(location, topdown=True):
-            count_valid_token = 0
-            temp_dict = {}
-            temp_dict["last_modified"] = time.ctime(os.path.getmtime(root))
-            print "Crawling directory: " + root
-            if(self.filter(root.split('/')[-1])):
-                count_valid_token += 1
-
-            temp_files = []
-            for name in files:
-                if(self.filter(name)):
+        for location in self.locations:
+            for root, dirs, files in os.walk(location, topdown=True):
+                count_valid_token = 0
+                temp_dict = {}
+                temp_dict["last_modified"] = time.ctime(os.path.getmtime(root))
+                print "Crawling directory: " + root
+                if(self.filter(root.split('/')[-1])):
                     count_valid_token += 1
-                    temp_files.append(name)
-                os.path.join(root, name)
-            temp_dict["files"] = temp_files
 
-            for name in dirs:
-                if(self.filter(name)):
-                    count_valid_token += 1
-                os.path.join(root, name)
+                temp_files = []
+                for name in files:
+                    if(self.filter(name)):
+                        count_valid_token += 1
+                        temp_files.append(name)
+                    os.path.join(root, name)
+                temp_dict["files"] = temp_files
 
-            if(count_valid_token > 0):
-                folders[root] = temp_dict
+                for name in dirs:
+                    if(self.filter(name)):
+                        count_valid_token += 1
+                    os.path.join(root, name)
 
-        with open("dumps/filesystem.pickle", 'wb') as handle:
+                if(count_valid_token > 0):
+                    folders[root] = temp_dict
+
+        with open(self.dump_location, 'wb') as handle:
             pickle.dump(folders, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-    def load(self, name):
-        """Load a filesystem dump from the given loation.
-
-        Args:
-            location: Path of the dump already created
-        """
-        name = "dmft_search/utilities/crawler/dumps/" + name
-        with open(name, 'rb') as handle:
-            b = pickle.load(handle)
-        return b
-
-# obj = Crawler()
-# obj.create('/home/xiaoyu')
-# obj.load('filesystem.pickle')
