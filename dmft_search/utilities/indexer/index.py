@@ -51,7 +51,7 @@ class Indexer():
         filesystem = self.load()
         index = {}
         print "Building indexes :"
-        for item in tqdm(filesystem.keys()[1:1000]):
+        for item in tqdm(filesystem.keys()):
             for keyword in keywords.keys():
                 frequency = 0
                 inner_temp = {}

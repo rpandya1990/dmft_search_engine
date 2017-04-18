@@ -15,7 +15,7 @@ class SearchForm extends React.Component {
   handleFilterChange(event) {
     event.preventDefault();
     this.setState({showBy: event.target.value});
-    this.handleSubmit();
+    this.handleSubmit(event);
   }
 
   handleSubmit(event) {
@@ -44,7 +44,7 @@ class SearchForm extends React.Component {
   }
 
   generateRows() {
-    var data = ["https://www.oneblowdrybar.com/wp-content/uploads/2013/05/placeholder2.png",
+    var data = ["https://fthmb.tqn.com/HfTvGa5qiDLrxaW61ZxU0vB6b0k=/768x0/filters:no_upscale()/about/acetic-acid-molecule-536230016-57b4825d5f9b58b5c2bdcfe1.jpg",
         "http://ccmmp.ph.qmul.ac.uk/sites/default/files/styles/newsimage/public/newsimages/Perovskite.png?itok=eYV75gwZ",
         "http://news.rice.edu/files/2013/11/1111_ARO-BB.jpg"];
     
