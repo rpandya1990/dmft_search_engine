@@ -33,7 +33,6 @@ class SearchForm extends React.Component {
   getData() {
     if (this.state.searchString.length > 0) {
       var url = "http://localhost:5000/search/" + this.state.searchString + "/" + this.state.showBy;
-      console.log(url);
       fetch(url)
         .then(response => response.json())
         .then(json => {
