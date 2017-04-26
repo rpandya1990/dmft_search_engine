@@ -17,8 +17,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ pip install -r requirements.txt
 $ npm install
-$ bower install
-```
+$ bower install    or bower install --allow-root```    when running with root user
 ---
 ### Run
 * Watch for changes and jsx to js transformation
