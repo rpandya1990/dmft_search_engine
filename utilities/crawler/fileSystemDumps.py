@@ -64,8 +64,10 @@ class Crawler(object):
         Args:
             location: path of the filesystem
         """
-        folders = {}
+        count = 0
         for location in self.locations:
+            count += 1
+            folders = {}
             for root, dirs, files in os.walk(location, topdown=True):
                 count_valid_token = 0
                 temp_dict = {}
@@ -90,5 +92,6 @@ class Crawler(object):
                 if(count_valid_token > 0):
                     folders[root] = temp_dict
 
-        with open(self.dump_location, 'wb') as handle:
-            pickle.dump(folders, handle, protocol=pickle.HIGHEST_PROTOCOL)
+            target = self.dump_location + str(count)
+            with open(target, 'wb') as handle:
+                pickle.dump(folders, handle, protocol=pickle.HIGHEST_PROTOCOL)

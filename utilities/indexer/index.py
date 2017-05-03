@@ -11,7 +11,7 @@ class Indexer():
     def __init__(self):
         config = ConfigParser.ConfigParser()
         config.readfp(open(r'utilities/indexer/config.txt'))
-        self.dump = config.get('FileSystemDump', 'Path')
+        self.dumps = config.get('FileSystemDump', 'Path')
         self.indexdump = config.get('IndexDump', 'Path')
 
     def findpattern(self, pattern, string):
@@ -48,28 +48,29 @@ class Indexer():
         """
 
         keywords, inverted_keywords = keystorefile.create()
-        filesystem = self.load()
         index = {}
-        print "Building indexes :"
-        for item in tqdm(filesystem.keys()):
-            for keyword in keywords.keys():
-                frequency = 0
-                inner_temp = {}
-                pattern_in_root = self.findpattern(keyword, item.split("/")[-1])
-                if len(pattern_in_root) > 0:
-                    inner_temp[item.split("/")[-1]] = pattern_in_root
-                    frequency += len(pattern_in_root)
+        for dump in self.dumps:
+            filesystem = self.load(dump)
+            print "Building indexes :"
+            for item in tqdm(filesystem.keys()):
+                for keyword in keywords.keys():
+                    frequency = 0
+                    inner_temp = {}
+                    pattern_in_root = self.findpattern(keyword, item.split("/")[-1])
+                    if len(pattern_in_root) > 0:
+                        inner_temp[item.split("/")[-1]] = pattern_in_root
+                        frequency += len(pattern_in_root)
 
-                for file in filesystem[item]['files']:
-                    pattern_in_file = self.findpattern(keyword, file.split(".")[0])
-                    if len(pattern_in_file) > 0:
-                        inner_temp[file] = pattern_in_file
-                        frequency += len(pattern_in_file)
+                    for file in filesystem[item]['files']:
+                        pattern_in_file = self.findpattern(keyword, file.split(".")[0])
+                        if len(pattern_in_file) > 0:
+                            inner_temp[file] = pattern_in_file
+                            frequency += len(pattern_in_file)
 
-                if frequency > 0:
-                    if keyword not in index:
-                        index[keyword] = {}
-                    index[keyword][item] = inner_temp
+                    if frequency > 0:
+                        if keyword not in index:
+                            index[keyword] = {}
+                        index[keyword][item] = inner_temp
 
         # Printing index to file for analysis
         with open('index.txt', 'w') as f1:
@@ -80,12 +81,12 @@ class Indexer():
         with open(self.indexdump, 'wb') as handle:
             pickle.dump(index, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-    def load(self):
+    def load(self, dump):
             """Load a filesystem dump from the given loation.
 
             Args:
                 location: Path of the dump already created
             """
-            with open(self.dump, 'rb') as handle:
+            with open(dump, 'rb') as handle:
                 b = pickle.load(handle)
             return b

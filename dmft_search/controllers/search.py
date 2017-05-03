@@ -78,7 +78,7 @@ class Search(Resource):
 
 		Note: Locate compound names with 2 or more elements
 
-		For compound with only 2 elements:
+		For compound with only 2 elements: Return the values for key
 
 		For compound with 3 or more elements i.e. more than 1 bigram:
 			Get all folders whose path contains all the bigrams

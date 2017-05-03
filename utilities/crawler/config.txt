@@ -2,4 +2,4 @@
 Paths = /home/xiayou, /abc/txt
 
 [Dump]
-Path = dumps/filesystem.pickle
+Path = dumps/
